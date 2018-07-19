@@ -2,8 +2,8 @@
   "api": {
   },
   "platform": null,
-  "author_name": "Dror",
-  "author_email": "d.gedalia@applicaster.com",
+  "author_name": "Tom",
+  "author_email": "tom.slutsky@petangos.com",
   "manifest_version": "0.0.1",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
@@ -34,31 +34,11 @@
       }
     },
     {
-      "label": "stuff",
-      "value": "stuff",
-      "documentation": {
-        "link": "http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetStaff",
-        "input_description": "get staff item list",
-        "input_placeholder": "...",
-        "input_description_image_url": "..."
-      }
-    },
-    {
       "label": "players",
       "value": "players",
       "documentation": {
         "link": "http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetPlayers",
         "input_description": "get players item list",
-        "input_placeholder": "...",
-        "input_description_image_url": "..."
-      }
-    },
-    {
-      "label": "board",
-      "value": "board",
-      "documentation": {
-        "link": "http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetBoards",
-        "input_description": "get the league board",
         "input_placeholder": "...",
         "input_description_image_url": "..."
       }

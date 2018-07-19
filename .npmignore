@@ -8,6 +8,8 @@
 .vscode/
 tsconfig.json
 jsconfig.json
+.atom
+.idea
 
 ### Node ###
 # Logs
@@ -73,6 +75,4 @@ jspm_packages
 # End of https://www.gitignore.io/api/code,node
 
 # build folder
-lib
-.atom
-.idea
+

@@ -1,12 +1,13 @@
 import axios from 'axios';
-import { parseXML } from './utils';
+import {
+  parseXML,
+  urlEncode
+} from './utils';
 
-export default ({ url }) => {
-  if (url) {
-    return axios.get(url).then(res => handlePlayersResponse(res));
-  }
+export default () => {
+  const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetPlayers';
+  return axios.get(url).then(handlePlayersResponse).catch(e => Promise.reject());
 
-  return Promise.reject('no url passed');
 };
 
 function handlePlayersResponse(response) {
@@ -34,20 +35,16 @@ function parsePlayer(player) {
       name: player.Name._cdata
     },
     link: {
-      href: `http://www.maccabi.co.il/player.asp?PlayerID=${player.ID._text}`,
+      href: urlEncode(`http://www.maccabi.co.il/player.asp?PlayerID=${player.ID._text}`),
       type: 'link'
     },
-    media_group: [
-      {
-        type: 'image',
-        media_item: [
-          {
-            src: player.Pic._text,
-            key: 'image_base',
-            type: 'image'
-          }
-        ]
-      }
-    ]
+    media_group: [{
+      type: 'image',
+      media_item: [{
+        src: player.Pic._text,
+        key: 'image_base',
+        type: 'image'
+      }]
+    }]
   };
 }

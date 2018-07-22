@@ -10,7 +10,7 @@
   "identifier": "maccabids",
   "ui_builder_support": true,
   "dependency_name": "@applicaster/zapp-pipes-provider-maccabi",
-  "dependency_version": "0.0.2",
+  "dependency_version": "0.0.5",
   "dependency_repository_url": [
     "https://github.com/applicaster/zapp-pipes-provider-maccabi"
   ],

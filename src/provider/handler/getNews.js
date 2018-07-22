@@ -1,18 +1,27 @@
 import axios from 'axios';
-import { parseDate, parseXML } from './utils';
+import {
+  parseDate,
+  parseXML
+} from './utils';
 
-export default ({ url, from, to, newsType = 0 }) => {
-  if (url) {
-    return axios.get(`${url}?item_id=0&c_type=${newsType || 0}`).then(res => {
-      const parsedResults = handlePlayersResponse(res, newsType, from, to);
-      return parsedResults;
-    });
-  }
 
-  return Promise.reject('no url passed');
+
+export default ({
+  from,
+  to,
+  newsType = 0
+}) => {
+  const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNews'
+
+  return axios.get(`${url}?item_id=0&c_type=${newsType || 0}`).then(res => {
+    return handleNewsResponse(res, newsType, from, to);
+  }).catch(e => Promise.reject('error connecting to maccabi api'));
+
+
+
 };
 
-async function handlePlayersResponse(response, newsType, from, to) {
+async function handleNewsResponse(response, newsType, from, to) {
   const rawData = parseXML(response.data);
   const parsedNews = parseNews(rawData.News.Item);
   const newsTypeTitle = await getNewsTitleById(newsType);
@@ -44,27 +53,23 @@ function parseItem(item) {
       name: '' //String
     },
     link: {
-      href: item.Link
-        ? item.Link._text
-        : `http://www.maccabi.co.il/news.asp?id=${item.ID._text}`,
+      href: item.Link ?
+        item.Link._text : `http://www.maccabi.co.il/news.asp?id=${item.ID._text}`,
       type: 'link'
     },
-    media_group: [
-      {
-        type: 'image',
-        media_item: [
-          {
-            src: item.MobilePic ? item.MobilePic._text || '' : '',
-            key: 'image_base',
-            type: 'image'
-          }
-        ]
-      }
-    ]
+    media_group: [{
+      type: 'image',
+      media_item: [{
+        src: item.MobilePic ? item.MobilePic._text || '' : '',
+        key: 'image_base',
+        type: 'image'
+      }]
+    }]
   };
 }
 
 function getNewsTitleById(id) {
+  if (id === 0) return "כל החדשות"
   try {
     return axios
       .get(
@@ -79,4 +84,4 @@ function getNewsTitleById(id) {
   } catch (e) {
     Promise.reject('error');
   }
-}
+} 

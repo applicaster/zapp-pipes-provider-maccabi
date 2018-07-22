@@ -1,6 +1,6 @@
 {
   "name": "@applicaster/zapp-pipes-provider-maccabi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "provider project for maccabi-zapp-pipes",
   "main": "lib/index.js",
   "scripts": {
@@ -23,9 +23,9 @@
   "author": "applicaster",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/applicaster/zapp-pipes-provider-starter-kit/issues"
+    "url": "https://github.com/applicaster/zapp-pipes-provider-maccabi/issues"
   },
-  "homepage": "https://github.com/applicaster/zapp-pipes-provider-starter-kit#readme",
+  "homepage": "https://github.com/applicaster/zapp-pipes-provider-maccabi#readme",
   "dependencies": {
     "axios": "^0.16.2",
     "moment": "^2.22.2",

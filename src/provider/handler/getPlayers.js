@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {
-  parseXML
+  parseXML,
+  urlEncode
 } from './utils';
 
 export default () => {
@@ -34,7 +35,7 @@ function parsePlayer(player) {
       name: player.Name._cdata
     },
     link: {
-      href: `http://www.maccabi.co.il/player.asp?PlayerID=${player.ID._text}`,
+      href: urlEncode(`http://www.maccabi.co.il/player.asp?PlayerID=${player.ID._text}`),
       type: 'link'
     },
     media_group: [{

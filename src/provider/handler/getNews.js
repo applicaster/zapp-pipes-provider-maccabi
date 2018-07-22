@@ -1,7 +1,8 @@
 import axios from 'axios';
 import {
   parseDate,
-  parseXML
+  parseXML,
+  urlEncode
 } from './utils';
 
 
@@ -40,7 +41,6 @@ function parseNews(news) {
 }
 
 function parseItem(item) {
-  console.log(item.MobilePic);
   return {
     type: {
       value: 'link'
@@ -53,8 +53,8 @@ function parseItem(item) {
       name: '' //String
     },
     link: {
-      href: item.Link ?
-        item.Link._text : `http://www.maccabi.co.il/news.asp?id=${item.ID._text}`,
+      href: urlEncode(item.Link ?
+        item.Link._text : `http://www.maccabi.co.il/news.asp?id=${item.ID._text}`),
       type: 'link'
     },
     media_group: [{

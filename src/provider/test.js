@@ -1,7 +1,7 @@
 export const test = {
   testCommand: 'maccabi://fetchData?type=players',
   requestMocks: [{
-    host: 'http://maccabi.co.il',
+    host: 'https://www.maccabi.co.il',
     method: 'GET',
     path: 'MaccabiServices/MaccabiServices.asmx/GetPlayers',
     expectedResponse: [{

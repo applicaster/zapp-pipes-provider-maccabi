@@ -10,11 +10,10 @@ import {
 export default ({
   from,
   to,
-  newsType = 0
+  newsType = "0"
 }) => {
   const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNews'
-
-  return axios.get(`${url}?item_id=0&c_type=${newsType || 0}`).then(res => {
+  return axios.get(`${url}?item_id=0&c_type=${newsType}`).then(res => {
     return handleNewsResponse(res, newsType, from, to);
   }).catch(e => Promise.reject('error connecting to maccabi api'));
 
@@ -69,7 +68,7 @@ function parseItem(item) {
 }
 
 function getNewsTitleById(id) {
-  if (id === 0) return "כל החדשות"
+  if (id === "0") return "כל החדשות"
   try {
     return axios
       .get(

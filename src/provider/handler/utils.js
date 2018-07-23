@@ -11,7 +11,7 @@ function parseXML(xml) {
 
 function parseDate(date, format) {
   const event = moment(date, format);
-  return event.toISOString();
+  return event.format('YYYY-MM-DD');
 }
 
 function urlEncode(url) {

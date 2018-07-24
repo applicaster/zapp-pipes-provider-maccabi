@@ -54,7 +54,7 @@ function parseItem(Game) {
             "name": "maccabi"
         },
         "link": [{
-            "href": `http://maccabi.co.il/gameZoneApp.asp?gameID=${Game.ID._text}&cYear=2018`,
+            "href": urlEncode(`http://maccabi.co.il/gameZoneApp.asp?gameID=${Game.ID._text}&cYear=2018`),
             "type": "link"
         }],
         "media_group": [{

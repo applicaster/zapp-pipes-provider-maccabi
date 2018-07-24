@@ -3,14 +3,15 @@ import moment from 'moment';
 import {
     parseDate,
     parseXML,
-    urlEncode
+    urlEncode,
+    sliceWrap
 } from './utils';
 
 
 
 export default ({
     c_type = 0,
-    num_of_items = 5
+    num_of_items = 1
 }) => {
     const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames'
     return axios.get(`${url}?game_list=0&c_type=${c_type}`).then(res => {
@@ -25,13 +26,14 @@ async function handleResponse(response, c_type, num_of_items) {
     const rawData = parseXML(response.data)
     const parsedData = parseData(rawData.Games.Game);
 
+
     return {
         "id": c_type, // WebService GetEventsTypes
         "title": getEventTypeById(c_type), // WebService GetEventsTypes
         "type": {
             "value": "match_box"
         },
-        "entry": parsedData
+        "entry": sliceWrap(parsedData, num_of_items, item => item.extensions.status === 1)
     }
 }
 

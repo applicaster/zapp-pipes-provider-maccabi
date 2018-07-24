@@ -1,9 +1,13 @@
-import { commands } from './comands';
+import {
+  commands
+} from './comands';
 
 export const handler = nativeBridge => params => {
-  const { type } = params;
+  const {
+    type
+  } = params;
 
-  if (!type || ['players', 'news'].indexOf(type) == -1) {
+  if (!type || ['players', 'news', 'matchBox'].indexOf(type) == -1) {
     return nativeBridge.throwError('unknown request');
   }
 

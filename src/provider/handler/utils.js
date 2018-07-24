@@ -18,8 +18,21 @@ function urlEncode(url) {
   return `maccabi://present?linkUrl=${encodeURIComponent(url)}`
 }
 
+function sliceWrap(list, payload_size = 1, validator) {
+  if (payload_size > list.length) return list
+  const validatedItemId = validator ? list.findIndex(validator) : 0;
+  const extraItemsLeft = Math.floor((payload_size - 1) / 2);
+  const extraItemsRight = Math.ceil((payload_size - 1) / 2);
+  const leftOutOfBound = extraItemsLeft > validatedItemId ? Math.abs(validatedItemId - extraItemsLeft) : 0
+  const rightOutOfBound = extraItemsRight > (list.length - 1 - validatedItemId) ? Math.abs(list.length - 1 - validatedItemId - extraItemsRight) : 0
+  const left = extraItemsLeft - leftOutOfBound + rightOutOfBound;
+  const right = extraItemsRight - rightOutOfBound + leftOutOfBound;
+  return list.slice(validatedItemId - left, validatedItemId + right + 1)
+}
+
 module.exports = {
   parseXML,
   parseDate,
-  urlEncode
+  urlEncode,
+  sliceWrap
 };

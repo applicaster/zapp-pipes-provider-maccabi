@@ -53,7 +53,7 @@ function parseItem(item) {
     },
     link: {
       href: urlEncode(item.Link ?
-        item.Link._text : `http://www.maccabi.co.il/news.asp?id=${item.ID._text}`),
+        item.Link._text : urlEncode(`http://maccabi.co.il/newsApp.asp?id=${item.ID._text}`)),
       type: 'link'
     },
     media_group: [{

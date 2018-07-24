@@ -1,5 +1,5 @@
 export const manifest = {
-  handlers: ['players', 'news'],
+  handlers: ['players', 'news', 'matchBox'],
   help: {
     players: {
       description: 'retrieves a list of players'
@@ -11,6 +11,14 @@ export const manifest = {
         from: 'index of first news item to retrieve',
         to: 'index of last news item to retrieve'
       }
+    },
+    matchBox: {
+      description: 'retrieves match box data',
+      params: {
+        c_type: 'id of category of match box to retrieve',
+        num_of_items: 'total number of items to retrieve. For example if num_of_items=5 then current match will be returened, prefixed by two previews matches and trailed by two upcoming matches'
+      }
     }
+
   }
 };

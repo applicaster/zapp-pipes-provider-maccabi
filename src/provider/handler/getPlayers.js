@@ -35,7 +35,7 @@ function parsePlayer(player) {
       name: player.Name._cdata
     },
     link: {
-      href: urlEncode(`http://maccabi.co.il/playerApp.asp?PlayerID=${player.ID._text}&cYear=2018`),
+      href: urlEncode(`http://maccabi.co.il/playerApp.asp?PlayerID=${player.ID._text}`),
       type: 'link'
     },
     media_group: [{

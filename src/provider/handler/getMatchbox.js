@@ -53,10 +53,10 @@ function parseItem(Game) {
         "author": {
             "name": "maccabi"
         },
-        "link": [{
-            "href": urlEncode(`http://maccabi.co.il/gameZoneApp.asp?gameID=${Game.ID._text}&cYear=2018`),
+        "link": {
+            "href": urlEncode(`http://maccabi.co.il/gameZoneApp.asp?gameID=${Game.ID._text}`),
             "type": "link"
-        }],
+        },
         "media_group": [{
             "type": "team1_logo",
             "media_item": [{
@@ -82,7 +82,7 @@ function parseItem(Game) {
             "match_stadium": Game.GamePlace._cdata,
             "match_round": Game.Round._text,
             "match_winner": Game.HomeAway._text,
-            "tickets_url": `<static url>?game_id=${Game.ID._text}`,
+            "tickets_url": urlEncode(`<static url>?game_id=${Game.ID._text}`),
             "currentQuarter": "",
             "currentQuarterTimeMinutes": ""
 

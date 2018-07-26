@@ -15,7 +15,7 @@ function parseDate(date, format) {
 }
 
 function urlEncode(url) {
-  return `maccabi://present?linkUrl=${encodeURIComponent(url)}`
+  return `maccabi://present?linkUrl=${encodeURIComponent(url)}&showContext=true`
 }
 
 function sliceWrap(list, payload_size = 1, validator) {

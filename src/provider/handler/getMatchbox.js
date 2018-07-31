@@ -4,7 +4,8 @@ import {
     parseDate,
     parseXML,
     urlEncode,
-    sliceWrap
+    sliceWrap,
+    compareTimes
 } from './utils';
 
 
@@ -14,33 +15,47 @@ export default ({
     num_of_items = 1
 }) => {
     const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
-    const cType = parseCType(c_type);
-    return axios.get(`${url}?game_list=0&c_type=${cType}`).then(res => {
-        return handleResponse(res, cType, num_of_items);
+    const c_types = parseCType(c_type);
+    return responseMapper(url, c_types).then(async res => {
+        return await handleResponse(res, c_types, num_of_items);
     }).catch(e => Promise.reject('error connecting to maccabi api'));
 
 
 
 };
 
-function parseCType(c_type) {
-    return c_type.toString().split(",");
-}
+
+
 
 async function handleResponse(response, c_type, num_of_items) {
-    const rawData = parseXML(response.data)
-    const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
-
-
     return {
         "id": c_type.join(", "), // WebService GetEventsTypes
         "title": await getEventTypeById(c_type), // WebService GetEventsTypes
         "type": {
             "value": "match_box"
         },
-        "entry": sliceWrap(parsedData, num_of_items, item => item.extensions.status === 1)
+        "entry": sliceWrap(response, num_of_items, item => item.extensions.status === 1)
     }
 }
+
+
+async function responseMapper(url, c_types) {
+    const promises = c_types.map(async c_type => await axios.get(`${url}?game_list=0&c_type=${c_type}`))
+    return Promise.all(promises).then(res => {
+        let entries = [];
+        res.forEach(item => {
+            const rawData = parseXML(item.data);
+            const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
+            parsedData.forEach(item => entries.push(item))
+        })
+        return entries.sort(((a, b) => compareTimes(a.extensions.match_date, b.extensions.match_date)));
+    })
+}
+
+function parseCType(c_type) {
+    return c_type.toString().split(",");
+}
+
 
 function parseData(data) {
     return data.map(parseItem);

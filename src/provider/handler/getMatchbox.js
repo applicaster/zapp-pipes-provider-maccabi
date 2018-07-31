@@ -13,22 +13,27 @@ export default ({
     c_type = 0,
     num_of_items = 1
 }) => {
-    const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames'
-    return axios.get(`${url}?game_list=0&c_type=${c_type}`).then(res => {
-        return handleResponse(res, c_type, num_of_items);
+    const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
+    const cType = parseCType(c_type);
+    return axios.get(`${url}?game_list=0&c_type=${cType}`).then(res => {
+        return handleResponse(res, cType, num_of_items);
     }).catch(e => Promise.reject('error connecting to maccabi api'));
 
 
 
 };
 
+function parseCType(c_type) {
+    return c_type.toString().split(",");
+}
+
 async function handleResponse(response, c_type, num_of_items) {
     const rawData = parseXML(response.data)
-    const parsedData = parseData(rawData.Games.Game);
+    const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
 
 
     return {
-        "id": c_type, // WebService GetEventsTypes
+        "id": c_type.join(", "), // WebService GetEventsTypes
         "title": await getEventTypeById(c_type), // WebService GetEventsTypes
         "type": {
             "value": "match_box"
@@ -90,20 +95,16 @@ function parseItem(Game) {
 
 }
 
-function getEventTypeById(id) {
-    if (id == "0") return "כל המשחקים"
-
+function getEventTypeById(c_types) {
+    if (c_types.includes('0')) return "כל המשחקים"
     return axios
         .get(
             'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
         ).then(response => {
             const rawData = parseXML(response.data);
-            const data = rawData.EventsTypes.Item.find(item => {
-                return item.ID._text == id
+            const data = rawData.EventsTypes.Item.filter(item => {
+                return c_types.includes(item.ID._text)
             })
-            return data.Title._text
+            return data.map(item => item.Title._text).join(", ")
         })
-
-
-
 }

@@ -29,7 +29,7 @@ async function handleResponse(response, c_type, num_of_items) {
 
     return {
         "id": c_type, // WebService GetEventsTypes
-        "title": getEventTypeById(c_type), // WebService GetEventsTypes
+        "title": await getEventTypeById(c_type), // WebService GetEventsTypes
         "type": {
             "value": "match_box"
         },
@@ -42,7 +42,6 @@ function parseData(data) {
 }
 
 function parseItem(Game) {
-    console.log(Game);
     return {
         "type": {
             "value": Game.GameStatus._text
@@ -93,19 +92,18 @@ function parseItem(Game) {
 
 function getEventTypeById(id) {
     if (id == "0") return "כל המשחקים"
-    try {
-        return axios
-            .get(
-                'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
-            )
-            .then(res => {
-                const rawData = parseXML(res.data);
-                console.log(rawData.EventsTypes.Item);
-                return Promise.resolve(
-                    rawData.EventsTypes.Item.find(item => item.ID._text == id).Title._text
-                );
-            });
-    } catch (e) {
-        Promise.reject('error');
-    }
+
+    return axios
+        .get(
+            'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
+        ).then(response => {
+            const rawData = parseXML(response.data);
+            const data = rawData.EventsTypes.Item.find(item => {
+                return item.ID._text == id
+            })
+            return data.Title._text
+        })
+
+
+
 }

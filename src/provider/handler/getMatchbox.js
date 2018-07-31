@@ -1,15 +1,14 @@
 import axios from 'axios';
-import moment from 'moment';
 import {
     parseDate,
     parseXML,
-    urlEncode,
     sliceWrap,
     compareTimes
 } from './utils';
 import {
     mapMatchBox
 } from './mappers'
+
 
 
 export default ({
@@ -45,10 +44,31 @@ async function responseMapper(url, c_types) {
         res.forEach(item => {
             const rawData = parseXML(item.data);
             const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
-            parsedData.forEach(item => entries.push(item))
+            parsedData.forEach(item => {
+                if (true) {
+                    const liveItem = getLiveData(item);
+                    entries.push(liveItem);
+                } else
+                    entries.push(item)
+            })
         })
         return entries.sort(((a, b) => compareTimes(a.extensions.match_date, b.extensions.match_date)));
     })
+}
+
+
+function getLiveData(game) {
+    switch (game.title) {
+        case 'יורוליג':
+            getEuroLiveData(game);
+            break;
+    }
+    return game;
+}
+
+async function getEuroLiveData(game) {
+    const response = await axios.get(`http://live.euroleague.net/service.ashx?method=gamesxml&user=maccabi&password=C547D7E5817A28D55DAA5AF1477DC1FA8ABC0CE3`);
+    return gamֿe;
 }
 
 function parseCType(c_type) {

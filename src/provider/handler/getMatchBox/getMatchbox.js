@@ -4,10 +4,16 @@ import {
     parseXML,
     sliceWrap,
     compareTimes
-} from './utils';
+} from '../utils';
 import {
     mapMatchBox
-} from './mappers'
+} from './matchBoxMapper'
+import {
+    getEuroleagueLivaData
+} from './euroleagueLivaData';
+import {
+    getSegevLiveData
+} from './segevLiveData';
 
 
 
@@ -20,9 +26,6 @@ export default ({
     return responseMapper(url, c_types).then(async res => {
         return await handleResponse(res, c_types, num_of_items);
     }).catch(e => Promise.reject('error connecting to maccabi api'));
-
-
-
 };
 
 async function handleResponse(response, c_type, num_of_items) {
@@ -60,15 +63,15 @@ async function responseMapper(url, c_types) {
 function getLiveData(game) {
     switch (game.title) {
         case 'יורוליג':
-            getEuroLiveData(game);
+            return getEuroleagueLivaData(game);
             break;
+        case 'ליגת העל':
+            return getSegevLiveData(game);
+            break;
+        default:
+            return game;
     }
     return game;
-}
-
-async function getEuroLiveData(game) {
-    const response = await axios.get(`http://live.euroleague.net/service.ashx?method=gamesxml&user=maccabi&password=C547D7E5817A28D55DAA5AF1477DC1FA8ABC0CE3`);
-    return gamֿe;
 }
 
 function parseCType(c_type) {

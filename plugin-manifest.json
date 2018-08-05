@@ -3,7 +3,7 @@
   "platform": null,
   "author_name": "Tom",
   "author_email": "tom.slutsky@petangos.com",
-  "manifest_version": "0.0.7",
+  "manifest_version": "0.0.8",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
   "type": "data_source_provider",
@@ -48,6 +48,16 @@
         "link": "",
         "input_description": "get games list",
         "input_placeholder": "?c_type=0&num_of_items=1",
+        "input_description_image_url": "..."
+      }
+    },
+    {
+      "label": "board",
+      "value": "board",
+      "documentation": {
+        "link": "",
+        "input_description": "get league board",
+        "input_placeholder": "?c_type=0",
         "input_description_image_url": "..."
       }
     }

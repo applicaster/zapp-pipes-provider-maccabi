@@ -34,7 +34,7 @@ export function mapMatchBox(Game) {
         }],
         "extensions": {
             //date formatted string with this format "yyyy/MM/dd HH:mm:ss Z". exsample: "2018/06/26 19:45:00 +0000"
-            "match_date": moment(`${Game.GameDate._text} ${Game.GameTime._text}`, "DD/MM/YYYY HH:mm").format("YYYY/MM/DD HH:mm:ss Z"), //Date
+            "match_date": moment(`${Game.GameDate._text}${Game.GameTime._text ? " " + Game.GameTime._text : ''}`, ["DD/MM/YYYY", "DD/MM/YYYY HH:mm"]).format("YYYY/MM/DD HH:mm:ss Z"),
             "status": Game.GameStatus._text,
             "home_team_name": Game.Team1Name._cdata,
             "home_team_score": Game.Team1Score._text,

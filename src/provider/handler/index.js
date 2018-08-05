@@ -1,6 +1,6 @@
 import {
   commands
-} from './comands';
+} from './commands';
 
 export const handler = nativeBridge => params => {
   const {

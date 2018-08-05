@@ -1,0 +1,15 @@
+{
+  "games": {
+    "game": {
+      "gamecode": "euro_133",
+      "homepts": "63",
+      "awaypts": "59",
+      "fullscore": "63-59",
+      "minute": "40:00",
+      "status": "off",
+      "hour": "19:45",
+      "team1": "MACCABI TEL AVIV",
+      "team2": "OLYMPIACOS PIRAEUS"
+    }
+  }
+}

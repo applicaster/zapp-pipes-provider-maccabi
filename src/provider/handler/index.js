@@ -7,7 +7,7 @@ export const handler = nativeBridge => params => {
     type
   } = params;
 
-  if (!type || ['players', 'news', 'matchBox'].indexOf(type) == -1) {
+  if (!type || ['players', 'news', 'matchBox', 'board'].indexOf(type) == -1) {
     return nativeBridge.throwError('unknown request');
   }
 

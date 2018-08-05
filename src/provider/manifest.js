@@ -1,5 +1,5 @@
 export const manifest = {
-  handlers: ['players', 'news', 'matchBox'],
+  handlers: ['players', 'news', 'matchBox', 'board'],
   help: {
     players: {
       description: 'retrieves a list of players'
@@ -17,6 +17,12 @@ export const manifest = {
       params: {
         c_type: 'id of category of match box to retrieve',
         num_of_items: 'total number of items to retrieve. For example if num_of_items=5 then current match will be returened, prefixed by two previews matches and trailed by two upcoming matches'
+      }
+    },
+    board: {
+      description: 'retrieves standings board',
+      params: {
+        c_type: 'competition id'
       }
     }
 

@@ -30,9 +30,18 @@ function sliceWrap(list, payload_size = 1, validator) {
   return list.slice(validatedItemId - left, validatedItemId + right + 1)
 }
 
+
+function compareTimes(a, b) {
+  const A = moment(a);
+  const B = moment(B);
+  if (A.isSame(B)) return 0
+  return moment(a).isBefore(moment(b)) ? -1 : 1;
+}
+
 module.exports = {
   parseXML,
   parseDate,
   urlEncode,
-  sliceWrap
+  sliceWrap,
+  compareTimes
 };

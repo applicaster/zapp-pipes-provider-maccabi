@@ -22,7 +22,7 @@ export const manifest = {
     board: {
       description: 'retrieves standings board',
       params: {
-        c_type: 'competition id or ids'
+        c_type: 'competition id'
       }
     }
 

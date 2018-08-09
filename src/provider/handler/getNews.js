@@ -59,7 +59,7 @@ function parseItem(item) {
     media_group: [{
       type: 'image',
       media_item: [{
-        src: item.MobilePic ? item.MobilePic._text || '' : '',
+        src: item.WebPic ? item.WebPic._text || '' : '',
         key: 'image_base',
         type: 'image'
       }]

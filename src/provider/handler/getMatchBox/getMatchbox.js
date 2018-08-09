@@ -19,16 +19,17 @@ import {
 
 export default ({
     c_type = 0,
-    num_of_items = 1
+    num_of_items = 1,
+    external_id
 }) => {
     const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
     const c_types = parseCType(c_type);
-    return responseMapper(url, c_types).then(async res => {
+    return responseMapper(url, c_types, external_id).then(async res => {
         return await handleResponse(res, c_types, num_of_items);
     }).catch(e => Promise.reject('error connecting to maccabi api'));
 };
 
-async function handleResponse(response, c_type, num_of_items) {
+async function handleResponse(response, c_type, num_of_items, external_id) {
     return {
         "id": c_type.join(", "), // WebService GetEventsTypes
         "title": await getEventTypeById(c_type), // WebService GetEventsTypes
@@ -40,7 +41,7 @@ async function handleResponse(response, c_type, num_of_items) {
 }
 
 // map through all c_types and returns sorted combined result
-async function responseMapper(url, c_types) {
+async function responseMapper(url, c_types, external_id) {
     const promises = c_types.map(async c_type => await axios.get(`${url}?game_list=0&c_type=${c_type}`))
     return Promise.all(promises).then(res => {
         let entries = [];
@@ -49,7 +50,7 @@ async function responseMapper(url, c_types) {
             const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
             parsedData.forEach(item => {
                 if (true) {
-                    const liveItem = getLiveData(item);
+                    const liveItem = getLiveData(item, external_id);
                     entries.push(liveItem);
                 } else
                     entries.push(item)
@@ -60,13 +61,13 @@ async function responseMapper(url, c_types) {
 }
 
 
-function getLiveData(game) {
+function getLiveData(game, external_id) {
     switch (game.title) {
         case 'יורוליג':
-            return getEuroleagueLivaData(game);
+            return getEuroleagueLivaData(game, external_id);
             break;
         case 'ליגת העל':
-            return getSegevLiveData(game);
+            return getSegevLiveData(game, external_id);
             break;
         default:
             return game;

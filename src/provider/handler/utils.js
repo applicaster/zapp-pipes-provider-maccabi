@@ -32,10 +32,10 @@ function sliceWrap(list, payload_size = 1, validator) {
 
 
 function compareTimes(a, b) {
-  const A = moment(a);
-  const B = moment(B);
+  const A = moment(a, "YYYY/MM/DD HH:mm:ss Z");
+  const B = moment(b, "YYYY/MM/DD HH:mm:ss Z");
   if (A.isSame(B)) return 0
-  return moment(a).isBefore(moment(b)) ? -1 : 1;
+  return A.isBefore(B) ? -1 : 1;
 }
 
 module.exports = {

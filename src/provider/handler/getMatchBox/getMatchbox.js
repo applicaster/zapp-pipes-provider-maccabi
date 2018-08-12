@@ -48,9 +48,9 @@ async function responseMapper(url, c_types, external_id) {
         res.forEach(item => {
             const rawData = parseXML(item.data);
             const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
-            parsedData.forEach(item => {
+            parsedData.forEach(async item => {
                 if (true) {
-                    const liveItem = getLiveData(item, external_id);
+                    const liveItem = await getLiveData(item, external_id);
                     entries.push(liveItem);
                 } else
                     entries.push(item)
@@ -61,13 +61,13 @@ async function responseMapper(url, c_types, external_id) {
 }
 
 
-function getLiveData(game, external_id) {
+async function getLiveData(game, external_id) {
     switch (game.title) {
         case 'יורוליג':
-            return getEuroleagueLivaData(game, external_id);
+            return await getEuroleagueLivaData(game, external_id); //@@change
             break;
         case 'ליגת העל':
-            return getSegevLiveData(game, external_id);
+            return await getSegevLiveData(game, external_id);
             break;
         default:
             return game;

@@ -15,7 +15,7 @@ function handlePlayersResponse(response) {
   const players = rawData.Players.Player.map(player => parsePlayer(player));
   return {
     id: 'players',
-    title: 'סגל שחקנים',
+    title: 'שחקנים',
     type: {
       value: 'feed'
     },

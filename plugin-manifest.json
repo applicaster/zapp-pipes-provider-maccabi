@@ -3,14 +3,14 @@
   "platform": null,
   "author_name": "Tom",
   "author_email": "tom.slutsky@petangos.com",
-  "manifest_version": "0.0.14",
+  "manifest_version": "0.0.17",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
   "type": "data_source_provider",
   "identifier": "maccabids",
   "ui_builder_support": true,
   "dependency_name": "@applicaster/zapp-pipes-provider-maccabi",
-  "dependency_version": "0.0.16",
+  "dependency_version": "0.0.17",
   "dependency_repository_url": [
     "https://github.com/applicaster/zapp-pipes-provider-maccabi"
   ],

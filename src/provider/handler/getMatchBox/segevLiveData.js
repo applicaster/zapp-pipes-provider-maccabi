@@ -1,4 +1,3 @@
-import segev from '../mocks/segevResponse.json'
 import Axios from 'axios';
 
 export async function getSegevLiveData(game, external_id) {

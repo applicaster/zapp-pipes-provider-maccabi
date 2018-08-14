@@ -64,7 +64,7 @@ async function responseMapper(url, c_types, external_id) {
 async function getLiveData(game, external_id) {
     switch (game.title) {
         case 'יורוליג':
-            return await getEuroleagueLivaData(game, external_id); //@@change
+            return await getEuroleagueLivaData(game, external_id); //@@not implemented
             break;
         case 'ליגת העל':
             return await getSegevLiveData(game, external_id);

@@ -3,7 +3,7 @@
   "platform": null,
   "author_name": "Tom",
   "author_email": "tom.slutsky@petangos.com",
-  "manifest_version": "0.0.17",
+  "manifest_version": "0.0.18",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
   "type": "data_source_provider",

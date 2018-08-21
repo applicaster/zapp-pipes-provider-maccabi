@@ -3,7 +3,7 @@ import {
     urlEncode
 } from '../utils'
 
-export function mapMatchBox(Game) {
+export function mapMatchBox(Game, ex_game_id, league_type) {
     return {
         "type": {
             "value": Game.GameStatus._text
@@ -35,18 +35,19 @@ export function mapMatchBox(Game) {
         "extensions": {
             //date formatted string with this format "yyyy/MM/dd HH:mm:ss Z". exsample: "2018/06/26 19:45:00 +0000"
             "match_date": moment(`${Game.GameDate._text}${Game.GameTime._text ? " " + Game.GameTime._text : ''}`, ["DD/MM/YYYY", "DD/MM/YYYY HH:mm"]).format("YYYY/MM/DD HH:mm:ss Z"),
-            "status": Game.GameStatus._text,
-            "home_team_name": Game.Team1Name._cdata,
-            "home_team_score": Game.Team1Score._text,
-            "away_team_name": Game.Team2Name._cdata,
-            "away_team_score": Game.Team2Score._text,
-            "match_stadium": Game.GamePlace._cdata,
-            "match_round": Game.Round._text,
-            "match_winner": Game.HomeAway._text,
-            "tickets_url": urlEncode(`<static url>?game_id=${Game.ID._text}`),
-            "currentQuarter": "",
-            "currentQuarterTimeMinutes": ""
-
+            status: Game.GameStatus._text,
+            home_team_name: Game.Team1Name._cdata,
+            home_team_score: Game.Team1Score._text,
+            away_team_name: Game.Team2Name._cdata,
+            away_team_score: Game.Team2Score._text,
+            match_stadium: Game.GamePlace._cdata,
+            match_round: Game.Round._text,
+            match_winner: Game.HomeAway._text,
+            tickets_url: "", //urlEncode(`<static url>?game_id=${Game.ID._text}`),
+            currentQuarter: "",
+            currentQuarterTimeMinutes: "",
+            ex_game_id,
+            league_type
         }
     }
 

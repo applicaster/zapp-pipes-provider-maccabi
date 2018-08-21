@@ -1,8 +1,8 @@
 import Axios from 'axios';
 
-export async function getSegevLiveData(game, external_id) {
+export async function getSegevLiveData(game, ex_game_id) {
     try {
-        const response = await Axios.get(`http://basket.co.il/pbp/json_live/${external_id}_boxscore.json`);
+        const response = await Axios.get(`http://basket.co.il/pbp/json_live/${ex_game_id}_boxscore.json`);
 
         const gameInfo = response.data.result.boxscore.gameInfo;
 

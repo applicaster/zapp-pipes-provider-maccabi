@@ -20,16 +20,16 @@ import {
 export default ({
     c_type = 0,
     num_of_items = 1,
-    external_id
+    ex_game_id
 }) => {
     const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
     const c_types = parseCType(c_type);
-    return responseMapper(url, c_types, external_id).then(async res => {
+    return responseMapper(url, c_types, ex_game_id).then(async res => {
         return await handleResponse(res, c_types, num_of_items);
     }).catch(e => Promise.reject('error connecting to maccabi api'));
 };
 
-async function handleResponse(response, c_type, num_of_items, external_id) {
+async function handleResponse(response, c_type, num_of_items, ex_game_id) {
     return {
         "id": c_type.join(", "), // WebService GetEventsTypes
         "title": await getEventTypeById(c_type), // WebService GetEventsTypes
@@ -41,16 +41,16 @@ async function handleResponse(response, c_type, num_of_items, external_id) {
 }
 
 // map through all c_types and returns sorted combined result
-async function responseMapper(url, c_types, external_id) {
+async function responseMapper(url, c_types, ex_game_id) {
     const promises = c_types.map(async c_type => await axios.get(`${url}?game_list=0&c_type=${c_type}`))
     return Promise.all(promises).then(res => {
         let entries = [];
         res.forEach(item => {
             const rawData = parseXML(item.data);
-            const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game) : [];
+            const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', ')) : [];
             parsedData.forEach(async item => {
                 if (true) {
-                    const liveItem = await getLiveData(item, external_id);
+                    const liveItem = await getLiveData(item, ex_game_id);
                     entries.push(liveItem);
                 } else
                     entries.push(item)
@@ -61,13 +61,13 @@ async function responseMapper(url, c_types, external_id) {
 }
 
 
-async function getLiveData(game, external_id) {
+async function getLiveData(game, ex_game_id) {
     switch (game.title) {
         case 'יורוליג':
-            return await getEuroleagueLivaData(game, external_id); //@@not implemented
+            return await getEuroleagueLivaData(game, ex_game_id); //@@not implemented
             break;
         case 'ליגת העל':
-            return await getSegevLiveData(game, external_id);
+            return await getSegevLiveData(game, ex_game_id);
             break;
         default:
             return game;
@@ -80,8 +80,8 @@ function parseCType(c_type) {
 }
 
 
-function parseData(data) {
-    return data.map(mapMatchBox);
+function parseData(data, ex_game_id, league_type) {
+    return data.map(item => mapMatchBox(item, ex_game_id, league_type));
 }
 
 

@@ -1,3 +1,3 @@
-export function getEuroleagueLivaData(game, external_id) {
+export function getEuroleagueLivaData(game, ex_game_id) {
     return game;
 }

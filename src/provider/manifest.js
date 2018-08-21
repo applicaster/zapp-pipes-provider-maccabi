@@ -17,7 +17,7 @@ export const manifest = {
       params: {
         c_type: 'id of category of match box to retrieve',
         num_of_items: 'total number of items to retrieve. For example if num_of_items=5 then current match will be returened, prefixed by two previews matches and trailed by two upcoming matches',
-        external_id: 'id of the live game in either segev of euroleague api'
+        ex_game_id: 'id of the live game in either segev of euroleague api'
       }
     },
     board: {

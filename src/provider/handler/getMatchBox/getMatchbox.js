@@ -1,101 +1,113 @@
 import axios from 'axios';
-import {
-    parseDate,
-    parseXML,
-    sliceWrap,
-    compareTimes
-} from '../utils';
-import {
-    mapMatchBox
-} from './matchBoxMapper'
-import {
-    getEuroleagueLivaData
-} from './euroleagueLivaData';
-import {
-    getSegevLiveData
-} from './segevLiveData';
-
-
+import { parseDate, parseXML, sliceWrap, compareTimes } from '../utils';
+import { mapMatchBox } from './matchBoxMapper';
+import { getEuroleagueLivaData } from './euroleagueLivaData';
+import { getSegevLiveData } from './segevLiveData';
 
 export default ({
-    c_type = 0,
-    num_of_items = 1,
-    ex_game_id
+  c_type = 0,
+  num_of_items = 1,
+  game_list = 0,
+  ex_game_id
 }) => {
-    const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
-    const c_types = parseCType(c_type);
-    return responseMapper(url, c_types, ex_game_id).then(async res => {
-        return await handleResponse(res, c_types, num_of_items);
-    }).catch(e => Promise.reject('error connecting to maccabi api'));
+  const url =
+    'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
+  const c_types = parseCType(c_type);
+  return responseMapper(url, c_types, ex_game_id, game_list)
+    .then(async res => {
+      return await handleResponse(res, c_types, num_of_items, game_list);
+    })
+    .catch(e => Promise.reject('error connecting to maccabi api'));
 };
 
-async function handleResponse(response, c_type, num_of_items, ex_game_id) {
-    return {
-        "id": c_type.join(", "), // WebService GetEventsTypes
-        "title": await getEventTypeById(c_type), // WebService GetEventsTypes
-        "type": {
-            "value": "match_box"
-        },
-        "entry": sliceWrap(response, num_of_items, item => item.extensions.status === 1)
-    }
+async function handleResponse(response, c_type, num_of_items, game_list) {
+  return {
+    id: c_type.join(', '), // WebService GetEventsTypes
+    title: await getEventTypeById(c_type), // WebService GetEventsTypes
+    type: {
+      value: 'match_box'
+    },
+    entry:
+      game_list == 0
+        ? getGameList(response, num_of_items)
+        : response.slice(0, num_of_items)
+  };
+}
+
+function getGameList(games, num_of_items) {
+  const _finishedGames = games.filter(item => item.type.value == 1);
+  const _unfinishedGames = games.filter(item => item.type.value == 2);
+  const finishedGames = _finishedGames.slice(
+    _finishedGames.length - 2,
+    _finishedGames.length
+  );
+  const unfinishedGames = _unfinishedGames.slice(
+    0,
+    num_of_items - finishedGames.length
+  );
+
+  return [...finishedGames, ...unfinishedGames];
 }
 
 // map through all c_types and returns sorted combined result
-async function responseMapper(url, c_types, ex_game_id) {
-    const promises = c_types.map(async c_type => await axios.get(`${url}?game_list=0&c_type=${c_type}`))
-    return Promise.all(promises).then(res => {
-        let entries = [];
-        res.forEach(item => {
-            const rawData = parseXML(item.data);
-            const parsedData = rawData.Games.Game ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', ')) : [];
-            parsedData.forEach(async item => {
-                if (true) {
-                    const liveItem = await getLiveData(item, ex_game_id);
-                    entries.push(liveItem);
-                } else
-                    entries.push(item)
-            })
-        })
-        return entries.sort(((a, b) => compareTimes(a.extensions.match_date, b.extensions.match_date)));
-    })
+async function responseMapper(url, c_types, ex_game_id, game_list) {
+  const promises = c_types.map(
+    async c_type =>
+      await axios.get(`${url}?game_list=${game_list}&c_type=${c_type}`)
+  );
+  return Promise.all(promises).then(res => {
+    let entries = [];
+    res.forEach(item => {
+      const rawData = parseXML(item.data);
+      const parsedData = rawData.Games.Game
+        ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', '))
+        : [];
+      parsedData.forEach(async item => {
+        if (true) {
+          const liveItem = await getLiveData(item, ex_game_id);
+          entries.push(liveItem);
+        } else entries.push(item);
+      });
+    });
+    return entries.sort((a, b) =>
+      compareTimes(a.extensions.match_date, b.extensions.match_date)
+    );
+  });
 }
 
-
 async function getLiveData(game, ex_game_id) {
-    switch (game.title) {
-        case 'יורוליג':
-            return await getEuroleagueLivaData(game, ex_game_id); //@@not implemented
-            break;
-        case 'ליגת העל':
-            return await getSegevLiveData(game, ex_game_id);
-            break;
-        default:
-            return game;
-    }
-    return game;
+  switch (game.title) {
+    case 'יורוליג':
+      return await getEuroleagueLivaData(game, ex_game_id); //@@not implemented
+      break;
+    case 'ליגת העל':
+      return await getSegevLiveData(game, ex_game_id);
+      break;
+    default:
+      return game;
+  }
+  return game;
 }
 
 function parseCType(c_type) {
-    return c_type.toString().split(",");
+  return c_type.toString().split(',');
 }
-
 
 function parseData(data, ex_game_id, league_type) {
-    return data.map(item => mapMatchBox(item, ex_game_id, league_type));
+  return data.map(item => mapMatchBox(item, ex_game_id, league_type));
 }
 
-
-
 function getEventTypeById(c_types) {
-    if (c_types.includes('0')) return "כל המשחקים"
-    return axios
-        .get(
-            'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
-        ).then(response => {
-            const rawData = parseXML(response.data);
-            const data = rawData.EventsTypes.Item.filter(item => {
-                return c_types.includes(item.ID._text)
-            })
-            return data.map(item => item.Title._text).join(", ")
-        })
+  if (c_types.includes('0')) return 'כל המשחקים';
+  return axios
+    .get(
+      'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
+    )
+    .then(response => {
+      const rawData = parseXML(response.data);
+      const data = rawData.EventsTypes.Item.filter(item => {
+        return c_types.includes(item.ID._text);
+      });
+      return data.map(item => item.Title._text).join(', ');
+    });
 }

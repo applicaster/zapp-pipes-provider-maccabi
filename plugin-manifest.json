@@ -3,14 +3,14 @@
   "platform": null,
   "author_name": "Tom",
   "author_email": "tom.slutsky@petangos.com",
-  "manifest_version": "0.1.0",
+  "manifest_version": "0.1.1",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
   "type": "data_source_provider",
   "identifier": "maccabids",
   "ui_builder_support": true,
   "dependency_name": "@applicaster/zapp-pipes-provider-maccabi",
-  "dependency_version": "0.1.0",
+  "dependency_version": "0.1.1",
   "dependency_repository_url": [
     "https://github.com/applicaster/zapp-pipes-provider-maccabi"
   ],
@@ -45,7 +45,7 @@
       "documentation": {
         "link": "",
         "input_description": "get games list",
-        "input_placeholder": "?c_type=0&num_of_items=1&ex_game_id=xxx",
+        "input_placeholder": "?c_type=x&num_of_items=x&game_list=x&ex_game_id=xxx",
         "input_description_image_url": "..."
       }
     },

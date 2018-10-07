@@ -8,7 +8,7 @@ function isEmpty(obj) {
 export function mapMatchBox(Game, ex_game_id, league_type) {
   return {
     type: {
-      value: isEmpty(Game.GamePBP) ? Game.GameStatus._text : '3'
+      value: ''
     },
     id: Game.ID._text,
     title: Game.GameTypeTxt._text,
@@ -40,6 +40,7 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
       }
     ],
     extensions: {
+      status: isEmpty(Game.GamePBP) ? Game.GameStatus._text : '3',
       //date formatted string with this format "yyyy/MM/dd HH:mm:ss Z". exsample: "2018/06/26 19:45:00 +0000"
       match_date: moment(
         `${Game.GameDate._text}${
@@ -47,7 +48,7 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
         }`,
         ['DD/MM/YYYY', 'DD/MM/YYYY HH:mm']
       ).format('YYYY/MM/DD HH:mm:ss Z'),
-      status: Game.GameStatus._text,
+
       home_team_name: Game.Team1Name._cdata,
       home_team_score: Game.Team1Score._text,
       away_team_name: Game.Team2Name._cdata,

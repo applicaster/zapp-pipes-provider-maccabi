@@ -6,7 +6,7 @@ import { getSegevLiveData } from './segevLiveData';
 
 export default ({
   c_type = 0,
-  num_of_items = 1,
+  num_of_items = 0,
   game_list = 0,
   ex_game_id
 }) => {
@@ -28,15 +28,17 @@ async function handleResponse(response, c_type, num_of_items, game_list) {
       value: 'match_box'
     },
     entry:
-      game_list == 0
+      game_list != 0
         ? getGameList(response, num_of_items)
-        : response.slice(0, num_of_items)
+        : num_of_items == 0
+          ? response.filter(item => item.extensions.status == 3)
+          : response.slice(0, num_of_items)
   };
 }
 
 function getGameList(games, num_of_items) {
-  const _finishedGames = games.filter(item => item.type.value == 1);
-  const _unfinishedGames = games.filter(item => item.type.value == 2);
+  const _finishedGames = games.filter(item => item.extensions.status == 1);
+  const _unfinishedGames = games.filter(item => item.extensions.status == 2);
   const finishedGames = _finishedGames.slice(
     _finishedGames.length - 2,
     _finishedGames.length
@@ -45,7 +47,6 @@ function getGameList(games, num_of_items) {
     0,
     num_of_items - finishedGames.length
   );
-
   return [...finishedGames, ...unfinishedGames];
 }
 

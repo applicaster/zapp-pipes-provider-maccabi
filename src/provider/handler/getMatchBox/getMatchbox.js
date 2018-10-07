@@ -5,9 +5,9 @@ import { getEuroleagueLivaData } from './euroleagueLivaData';
 import { getSegevLiveData } from './segevLiveData';
 
 export default ({
-  c_type = 0,
-  num_of_items = 0,
-  game_list = 0,
+  c_type = '0',
+  num_of_items = '0',
+  game_list = '0',
   ex_game_id
 }) => {
   const url =
@@ -28,16 +28,17 @@ async function handleResponse(response, c_type, num_of_items, game_list) {
       value: 'match_box'
     },
     entry:
-      game_list != 0
-        ? getGameList(response, num_of_items)
-        : num_of_items == 0
-          ? response.filter(item => item.extensions.status == 3)
+      num_of_items === '0'
+        ? response.filter(item => item.extensions.status == 3)
+        : game_list === '0'
+          ? getGameList(response, num_of_items)
           : response.slice(0, num_of_items)
   };
 }
 
 function getGameList(games, num_of_items) {
   const _finishedGames = games.filter(item => item.extensions.status == 1);
+  const liveGames = games.filter(item => item.extensions.status == 3);
   const _unfinishedGames = games.filter(item => item.extensions.status == 2);
   const finishedGames = _finishedGames.slice(
     _finishedGames.length - 2,
@@ -45,9 +46,9 @@ function getGameList(games, num_of_items) {
   );
   const unfinishedGames = _unfinishedGames.slice(
     0,
-    num_of_items - finishedGames.length
+    num_of_items - finishedGames.length - liveGames.length
   );
-  return [...finishedGames, ...unfinishedGames];
+  return [...finishedGames, ...liveGames, ...unfinishedGames];
 }
 
 // map through all c_types and returns sorted combined result
@@ -64,7 +65,7 @@ async function responseMapper(url, c_types, ex_game_id, game_list) {
         ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', '))
         : [];
       parsedData.forEach(async item => {
-        if (true) {
+        if (item.extensions.status === '3') {
           const liveItem = await getLiveData(item, ex_game_id);
           entries.push(liveItem);
         } else entries.push(item);
@@ -81,7 +82,7 @@ async function getLiveData(game, ex_game_id) {
     case 'יורוליג':
       return await getEuroleagueLivaData(game, ex_game_id); //@@not implemented
       break;
-    case 'ליגת העל':
+    case 'ליגת ווינר-סל':
       return await getSegevLiveData(game, ex_game_id);
       break;
     default:

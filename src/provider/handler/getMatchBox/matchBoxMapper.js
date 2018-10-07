@@ -59,7 +59,11 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
       tickets_url: '', //urlEncode(`<static url>?game_id=${Game.ID._text}`),
       currentQuarter: '',
       currentQuarterTimeMinutes: '',
-      ex_game_id,
+      ex_game_id: !isEmpty(Game.GamePBP)
+        ? Game.GamePBP._text.split('/')[
+            Game.GamePBP._text.split('/').length - 2
+          ]
+        : '',
       league_type
     }
   };

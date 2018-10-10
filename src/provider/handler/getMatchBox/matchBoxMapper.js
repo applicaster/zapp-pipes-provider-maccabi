@@ -56,7 +56,10 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
       match_stadium: Game.GamePlace._cdata,
       match_round: Game.Round._text,
       match_winner: Game.HomeAway._text,
-      tickets_url: '', //urlEncode(`<static url>?game_id=${Game.ID._text}`),
+      tickets_url:
+        Game.IsBuyTicketsActive._text === 'True'
+          ? urlEncode(Game.GameTicketsURL._text)
+          : '',
       currentQuarter: '',
       currentQuarterTimeMinutes: '',
       ex_game_id: Game.ExternalID._text,

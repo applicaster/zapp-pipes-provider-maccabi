@@ -1,0 +1,60 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<euroleague>
+<expires in="16"/>
+<mainData>
+<team1 id="TEL">Maccabi FOX Tel Aviv</team1>
+<team2 id="CSK">CSKA Moscow</team2>
+<referee1>RYZHYK, BORYS</referee1>
+<referee2>CORTES, CARLOS</referee2>
+<referee3>NEDOVIC, MILAN</referee3>
+<date>16/10/2018</date>
+<time>20:05 </time>
+<phase>Regular Season</phase>
+<competition>EuroLeague 2018-19</competition>
+<arena>MENORA MIVTACHIM ARENA</arena>
+<spectators>0</spectators>
+<timePlayed>11:00</timePlayed>
+<status>on</status>
+<timestamp>16/10/2018 20:31:14</timestamp>
+<logicalFolder>/EuroLeague2018-19/TEL-CSK-20181016/</logicalFolder>
+<points team1="23" team2="28">
+<partial id="1" team1="21" team2="24"/>
+<partial id="2" current="true" team1="2" team2="4"/>
+<partial id="3" team1="0" team2="0"/>
+<partial id="4" team1="0" team2="0"/>
+<partial id="OT" team1="-" team2="-"/>
+</points>
+</mainData>
+<fullStats>
+<team1>
+<team minSeconds="00:00" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="1" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="-1"/>
+<player num="1" code="P006661" name="WILBEKIN, SCOTTIE" isPlaying="1" minSeconds="08:49" plusmin="-3" points="2" p2m="1" p2a="1" p2p="100" p3m="0" p3a="2" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="2" rbt="2" st="0" to="2" as="1" blfv="0" blag="0" fcm="1" frv="0" rkg="0"/>
+<player num="3" code="P009004" name="O'BRYANT III, JOHNNY" isPlaying="1" minSeconds="08:03" plusmin="-5" points="3" p2m="0" p2a="2" p2p="0" p3m="1" p3a="1" p3p="100" ftm="0" fta="0" ftp="0" rbo="1" rbd="2" rbt="3" st="0" to="2" as="1" blfv="0" blag="0" fcm="2" frv="1" rkg="2"/>
+<player num="4" code="P005771" name="CALOIARO, ANGELO" isPlaying="0" minSeconds="08:55" plusmin="-3" points="3" p2m="0" p2a="0" p2p="0" p3m="1" p3a="1" p3p="100" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="1" as="1" blfv="0" blag="0" fcm="2" frv="1" rkg="2"/>
+<player num="5" code="P004974" name="ROLL, MICHAEL" isPlaying="1" minSeconds="09:09" plusmin="-3" points="8" p2m="1" p2a="2" p2p="50" p3m="2" p3a="2" p3p="100" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="1" to="0" as="1" blfv="0" blag="0" fcm="1" frv="1" rkg="9"/>
+<player num="7" code="P005781" name="KANE, DEANDRE" isPlaying="1" minSeconds="05:15" plusmin="-4" points="7" p2m="3" p2a="3" p2p="100" p3m="0" p3a="1" p3p="0" ftm="1" fta="2" ftp="50" rbo="1" rbd="0" rbt="1" st="0" to="0" as="0" blfv="0" blag="0" fcm="2" frv="2" rkg="6"/>
+<player num="8" code="P007675" name="AVDIJA, DENI" isPlaying="0" minSeconds="00:00" plusmin="0" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="9" code="P004119" name="TYUS, ALEX" isPlaying="0" minSeconds="04:44" plusmin="-4" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="10" code="P007768" name="LEVI, NIMROD" isPlaying="0" minSeconds="00:00" plusmin="0" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="12" code="P007990" name="DIBARTOLOMEO, JOHN" isPlaying="0" minSeconds="02:11" plusmin="-2" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="1" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="-1"/>
+<player num="15" code="P005145" name="COHEN, JAKE" isPlaying="0" minSeconds="01:38" plusmin="0" points="0" p2m="0" p2a="1" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="1" rbd="0" rbt="1" st="0" to="0" as="0" blfv="0" blag="0" fcm="1" frv="0" rkg="-1"/>
+<player num="28" code="P008991" name="BLACK, TARIK" isPlaying="1" minSeconds="06:16" plusmin="-1" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="1" rbd="0" rbt="1" st="0" to="2" as="0" blfv="0" blag="0" fcm="1" frv="0" rkg="-2"/>
+<player num="50" code="P006625" name="ZOOSMAN, YOVEL" isPlaying="0" minSeconds="00:00" plusmin="0" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+</team1>
+<team2>
+<team minSeconds="00:00" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="1" code="P002100" name="DE COLO, NANDO" isPlaying="1" minSeconds="08:06" plusmin="1" points="11" p2m="4" p2a="4" p2p="100" p3m="1" p3a="2" p3p="50" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="2" to="0" as="1" blfv="0" blag="0" fcm="0" frv="1" rkg="14"/>
+<player num="5" code="P008829" name="PETERS, ALEC" isPlaying="1" minSeconds="02:43" plusmin="4" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="1" as="1" blfv="0" blag="0" fcm="1" frv="1" rkg="0"/>
+<player num="7" code="P008995" name="UKHOV, IVAN" isPlaying="0" minSeconds="00:00" plusmin="0" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="11" code="P004941" name="ANTONOV, SEMEN" isPlaying="0" minSeconds="00:00" plusmin="0" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="0"/>
+<player num="13" code="PCVM" name="RODRIGUEZ, SERGIO" isPlaying="0" minSeconds="05:13" plusmin="4" points="0" p2m="0" p2a="1" p2p="0" p3m="0" p3a="1" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="1" blfv="0" blag="0" fcm="0" frv="0" rkg="-1"/>
+<player num="20" code="PLHI" name="VORONTSEVICH, ANDREY" isPlaying="0" minSeconds="08:17" plusmin="1" points="0" p2m="0" p2a="0" p2p="0" p3m="0" p3a="1" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="0" rkg="-1"/>
+<player num="21" code="P004888" name="CLYBURN, WILL" isPlaying="1" minSeconds="02:43" plusmin="4" points="3" p2m="0" p2a="0" p2p="0" p3m="1" p3a="1" p3p="100" ftm="0" fta="0" ftp="0" rbo="0" rbd="2" rbt="2" st="0" to="0" as="0" blfv="0" blag="0" fcm="1" frv="0" rkg="4"/>
+<player num="22" code="P006450" name="HIGGINS, CORY" isPlaying="1" minSeconds="03:24" plusmin="2" points="0" p2m="0" p2a="1" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="0" to="0" as="0" blfv="0" blag="0" fcm="0" frv="3" rkg="2"/>
+<player num="23" code="P001844" name="HACKETT, DANIEL" isPlaying="0" minSeconds="05:45" plusmin="1" points="0" p2m="0" p2a="1" p2p="0" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="0" rbd="0" rbt="0" st="1" to="0" as="1" blfv="0" blag="0" fcm="1" frv="1" rkg="1"/>
+<player num="41" code="PJLX" name="KURBANOV, NIKITA" isPlaying="0" minSeconds="07:49" plusmin="3" points="4" p2m="1" p2a="1" p2p="100" p3m="0" p3a="0" p3p="0" ftm="2" fta="2" ftp="100" rbo="1" rbd="0" rbt="1" st="0" to="1" as="1" blfv="0" blag="0" fcm="1" frv="3" rkg="7"/>
+<player num="42" code="P002812" name="HINES, KYLE" isPlaying="1" minSeconds="01:36" plusmin="1" points="4" p2m="1" p2a="1" p2p="100" p3m="0" p3a="0" p3p="0" ftm="2" fta="2" ftp="100" rbo="1" rbd="0" rbt="1" st="1" to="0" as="0" blfv="0" blag="0" fcm="1" frv="1" rkg="6"/>
+<player num="44" code="P005160" name="HUNTER, OTHELLO" isPlaying="0" minSeconds="09:24" plusmin="4" points="6" p2m="3" p2a="4" p2p="75" p3m="0" p3a="0" p3p="0" ftm="0" fta="0" ftp="0" rbo="1" rbd="2" rbt="3" st="0" to="1" as="1" blfv="0" blag="0" fcm="0" frv="0" rkg="8"/>
+</team2>
+</fullStats>
+</euroleague>

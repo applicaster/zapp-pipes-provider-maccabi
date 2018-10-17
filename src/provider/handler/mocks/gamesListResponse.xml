@@ -1,0 +1,203 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<games>
+<game>
+<gamecode>euro_10</gamecode>
+<homepts>21</homepts>
+<awaypts>26</awaypts>
+<fullscore>21-26</fullscore>
+<minute>10:00</minute>
+<status>on</status>
+<hour>20:05</hour>
+<team1>
+<![CDATA[ Maccabi FOX Tel Aviv ]]>
+</team1>
+<team2>
+<![CDATA[ CSKA Moscow ]]>
+</team2>
+<liveUrl>
+http://euroleague.preproduccion.com/main/results/showgame?gamecode=10&seasoncode=E2018&disp=22RAMF46E321212R3VX4QRPF2
+</liveUrl>
+<idgame>euro_10</idgame>
+<stat>20</stat>
+<disp>22RAMF46E321212R3VX4QRPF2</disp>
+<z>0</z>
+<date>Oct 16, 2018</date>
+<codeteam1>TEL</codeteam1>
+<codeteam2>CSK</codeteam2>
+</game>
+<game>
+<gamecode>euro_11</gamecode>
+<homepts>0</homepts>
+<awaypts>0</awaypts>
+<fullscore>0-0</fullscore>
+<minute>00:00</minute>
+<status>off</status>
+<hour>20:30</hour>
+<team1>
+<![CDATA[ FC Bayern Munich ]]>
+</team1>
+<team2>
+<![CDATA[ Panathinaikos OPAP Athens ]]>
+</team2>
+<liveUrl>
+http://euroleague.preproduccion.com/main/results/showgame?gamecode=11&seasoncode=E2018&disp=M4718F46E321212R3VX4MSPF2
+</liveUrl>
+<idgame>euro_11</idgame>
+<stat>20</stat>
+<disp>M4718F46E321212R3VX4MSPF2</disp>
+<z>1</z>
+<date>Oct 16, 2018</date>
+<codeteam1>MUN</codeteam1>
+<codeteam2>PAN</codeteam2>
+</game>
+<game>
+<gamecode>euro_12</gamecode>
+<homepts>0</homepts>
+<awaypts>0</awaypts>
+<fullscore>0-0</fullscore>
+<minute>00:00</minute>
+<status>off</status>
+<hour>21:00</hour>
+<team1>
+<![CDATA[ ]]>
+</team1>
+<team2>
+<![CDATA[ ]]>
+</team2>
+<liveUrl>
+http://euroleague.preproduccion.com/main/results/showgame?gamecode=12&seasoncode=E2018&disp=QGHHTF46E321212R3VX48SPF2
+</liveUrl>
+<idgame>euro_12</idgame>
+<stat>10</stat>
+<disp>QGHHTF46E321212R3VX48SPF2</disp>
+<z>0</z>
+<date>Oct 16, 2018</date>
+<codeteam1/>
+<codeteam2/>
+</game>
+<game>
+<gamecode>euro_9</gamecode>
+<homepts>43</homepts>
+<awaypts>39</awaypts>
+<fullscore>43-39</fullscore>
+<minute>24:00</minute>
+<status>on</status>
+<hour>19:15</hour>
+<team1>
+<![CDATA[ Darussafaka Tekfen Istanbul ]]>
+</team1>
+<team2>
+<![CDATA[ Buducnost VOLI Podgorica ]]>
+</team2>
+<liveUrl>
+http://euroleague.preproduccion.com/main/results/showgame?gamecode=9&seasoncode=E2018&disp=I2MUFF46E321212R3VX4JRPF2
+</liveUrl>
+<idgame>euro_9</idgame>
+<stat>20</stat>
+<disp>I2MUFF46E321212R3VX4JRPF2</disp>
+<z>1</z>
+<date>Oct 16, 2018</date>
+<codeteam1>DAR</codeteam1>
+<codeteam2>BUD</codeteam2>
+</game>
+<game>
+<gamecode>uleb_25</gamecode>
+<homepts>62</homepts>
+<awaypts>65</awaypts>
+<fullscore>62-65</fullscore>
+<minute>30:00</minute>
+<status>on</status>
+<hour>19:00</hour>
+<team1>
+<![CDATA[ Galatasaray Istanbul ]]>
+</team1>
+<team2>
+<![CDATA[ Germani Brescia Leonessa ]]>
+</team2>
+<liveUrl>
+http://www.eurocupbasketball.com/eurocup/games/results/showgame?gamecode=25&seasoncode=U2018&disp=4AKKMF46E321212R3VX4JRPF2
+</liveUrl>
+<idgame>uleb_25</idgame>
+<stat>20</stat>
+<disp>4AKKMF46E321212R3VX4JRPF2</disp>
+<z>0</z>
+<date>Oct 16, 2018</date>
+<codeteam1>GAL</codeteam1>
+<codeteam2>BRE</codeteam2>
+</game>
+<game>
+<gamecode>uleb_26</gamecode>
+<homepts>62</homepts>
+<awaypts>59</awaypts>
+<fullscore>62-59</fullscore>
+<minute>30:00</minute>
+<status>on</status>
+<hour>19:00</hour>
+<team1>
+<![CDATA[ Crvena Zvezda mts Belgrade ]]>
+</team1>
+<team2>
+<![CDATA[ MoraBanc Andorra ]]>
+</team2>
+<liveUrl>
+http://www.eurocupbasketball.com/eurocup/games/results/showgame?gamecode=26&seasoncode=U2018&disp=ANMPCF36A91FDB8F185484TVF
+</liveUrl>
+<idgame>uleb_26</idgame>
+<stat>20</stat>
+<disp>ANMPCF36A91FDB8F185484TVF</disp>
+<z>1</z>
+<date>Oct 16, 2018</date>
+<codeteam1>RED</codeteam1>
+<codeteam2>ANR</codeteam2>
+</game>
+<game>
+<gamecode>uleb_27</gamecode>
+<homepts>32</homepts>
+<awaypts>46</awaypts>
+<fullscore>32-46</fullscore>
+<minute>20:00</minute>
+<status>on</status>
+<hour>19:30</hour>
+<team1>
+<![CDATA[ ratiopharm Ulm ]]>
+</team1>
+<team2>
+<![CDATA[ AS Monaco ]]>
+</team2>
+<liveUrl>
+http://www.eurocupbasketball.com/eurocup/games/results/showgame?gamecode=27&seasoncode=U2018&disp=FASUSF4651FFFFF751LD6628F
+</liveUrl>
+<idgame>uleb_27</idgame>
+<stat>20</stat>
+<disp>FASUSF4651FFFFF751LD6628F</disp>
+<z>0</z>
+<date>Oct 16, 2018</date>
+<codeteam1>ULM</codeteam1>
+<codeteam2>MCO</codeteam2>
+</game>
+<game>
+<gamecode>uleb_33</gamecode>
+<homepts>0</homepts>
+<awaypts>0</awaypts>
+<fullscore>0-0</fullscore>
+<minute>00:00</minute>
+<status>off</status>
+<hour>20:30</hour>
+<team1>
+<![CDATA[ LDLC ASVEL Villeurbanne ]]>
+</team1>
+<team2>
+<![CDATA[ Turk Telekom Ankara ]]>
+</team2>
+<liveUrl>
+http://www.eurocupbasketball.com/eurocup/games/results/showgame?gamecode=33&seasoncode=U2018&disp=H2A95F46E3FFFFFDERKL6E834
+</liveUrl>
+<idgame>uleb_33</idgame>
+<stat>20</stat>
+<disp>H2A95F46E3FFFFFDERKL6E834</disp>
+<z>1</z>
+<date>Oct 16, 2018</date>
+<codeteam1>ASV</codeteam1>
+<codeteam2>TTK</codeteam2>
+</game>
+</games>

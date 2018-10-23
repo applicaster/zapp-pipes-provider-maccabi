@@ -6,6 +6,11 @@ function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
 export function mapMatchBox(Game, ex_game_id, league_type) {
+  if (!isEmpty(Game.GamePBP))
+    console.log(
+      '*****',
+      Game.GamePBP._text.split('/')[Game.GamePBP._text.split('/').length - 2]
+    );
   return {
     type: {
       value: ''
@@ -62,7 +67,11 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
           : '',
       currentQuarter: '',
       currentQuarterTimeMinutes: '',
-      ex_game_id: Game.ExternalID._text,
+      ex_game_id: !isEmpty(Game.GamePBP)
+        ? Game.GamePBP._text.split('/')[
+            Game.GamePBP._text.split('/').length - 2
+          ]
+        : '', //Game.ExternalID._text,
       league_type
     }
   };

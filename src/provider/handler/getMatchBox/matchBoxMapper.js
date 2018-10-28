@@ -6,12 +6,7 @@ function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
 export function mapMatchBox(Game, ex_game_id, league_type) {
-  if (!isEmpty(Game.GamePBP))
-    console.log(
-      '*****',
-      Game.GamePBP._text.split('/')[Game.GamePBP._text.split('/').length - 2]
-    );
-  return {
+  const res = {
     type: {
       value: ''
     },
@@ -75,4 +70,6 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
       league_type
     }
   };
+  //if (!isEmpty(Game.GamePBP)) console.log(res);
+  return res;
 }

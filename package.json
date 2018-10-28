@@ -28,6 +28,7 @@
   "homepage": "https://github.com/applicaster/zapp-pipes-provider-maccabi#readme",
   "dependencies": {
     "axios": "^0.16.2",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2",
     "xml-js": "^1.6.7"
   },

@@ -1,0 +1,2241 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Games>
+<Game>
+<ID>9456</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>14/09/2018</GameDate>
+<GameTime>18:30</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ קפריסין ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5LIVE ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1815</Team1>
+<Team1Name>
+<![CDATA[ חימקי מוסקבה ]]>
+</Team1Name>
+<Team1Score>84</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Khimki.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>87</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6702</NewsId>
+</Game>
+<Game>
+<ID>9457</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>15/09/2018</GameDate>
+<GameTime>20:00</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ קפריסין ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1816</Team1>
+<Team1Name>
+<![CDATA[ פנאתינייקוס ]]>
+</Team1Name>
+<Team1Score>87</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/PAOBC_OPAP_onLight.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>81</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6704</NewsId>
+</Game>
+<Game>
+<ID>9458</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>16/09/2018</GameDate>
+<GameTime>17:00</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ קפריסין ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1817</Team1>
+<Team1Name>
+<![CDATA[ א.א.ק אתונה ]]>
+</Team1Name>
+<Team1Score>99</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/AEK_Basketball_Club_Official_Logo%20copy.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>95</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6706</NewsId>
+</Game>
+<Game>
+<ID>9459</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>20/09/2018</GameDate>
+<GameTime>21:30</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ זאדאר ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1813</Team1>
+<Team1Name>
+<![CDATA[ אולימפיה מילאנו ]]>
+</Team1Name>
+<Team1Score>80</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_milano_300x300.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>75</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6713</NewsId>
+</Game>
+<Game>
+<ID>9460</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>21/09/2018</GameDate>
+<GameTime>17:30</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ זאדאר ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1814</Team1>
+<Team1Name>
+<![CDATA[ פנרבחצ'ה איסטנבול ]]>
+</Team1Name>
+<Team1Score>65</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_fenerbahce_300x300.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>60</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6715</NewsId>
+</Game>
+<Game>
+<ID>9485</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>23/09/2018</GameDate>
+<GameTime>16:30</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ זאדאר ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5LIVE ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1818</Team1>
+<Team1Name>
+<![CDATA[ ליאונינג ]]>
+</Team1Name>
+<Team1Score>64</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/Liaoning_Flying_Leopards.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>100</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6717</NewsId>
+</Game>
+<Game>
+<ID>9484</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>27/09/2018</GameDate>
+<GameTime>18:30</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ אואקה ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1814</Team1>
+<Team1Name>
+<![CDATA[ פנרבחצ'ה איסטנבול ]]>
+</Team1Name>
+<Team1Score>94</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_fenerbahce_300x300.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>92</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6721</NewsId>
+</Game>
+<Game>
+<ID>9489</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>28/09/2018</GameDate>
+<GameTime>18:00</GameTime>
+<GameType>39</GameType>
+<GameTypeTxt>משחקי הכנה</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ אואקה ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1815</Team1>
+<Team1Name>
+<![CDATA[ חימקי מוסקבה ]]>
+</Team1Name>
+<Team1Score>82</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Khimki.png
+</Team1Logo>
+<Team2>1812</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>86</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6723</NewsId>
+</Game>
+<Game>
+<ID>9490</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>01/10/2018</GameDate>
+<GameTime>20:30</GameTime>
+<GameType>47</GameType>
+<GameTypeTxt>רבע גמר גביע ווינר-סל</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ בית מכבי ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5PLUS ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>23922</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1356</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>77</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1355</Team2>
+<Team2Name>
+<![CDATA[ מכבי ראשון לציון ]]>
+</Team2Name>
+<Team2Score>86</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/logos/logo_rishon(1).png
+</Team2Logo>
+<HomeAway>N</HomeAway>
+<NewsId>6727</NewsId>
+</Game>
+<Game>
+<ID>9461</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>07/10/2018</GameDate>
+<GameTime>18:30</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>23790</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/he-IL/events/%D7%9E%D7%9B%D7%91%D7%99%20fox%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20-%20%D7%9E%D7%9B%D7%91%D7%99%20%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%91%D7%90%D7%A8%20%D7%98%D7%95%D7%91%D7%99%D7%94/2018-10-7_20.00/%D7%94%D7%99%D7%9B%D7%9C%20%D7%9E%D7%A0%D7%95%D7%A8%D7%94%20%D7%9E%D7%91%D7%98%D7%97%D7%99%D7%9D?hallmap
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>103</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1341</Team2>
+<Team2Name>
+<![CDATA[ מכבי אשדוד ]]>
+</Team2Name>
+<Team2Score>59</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_ashdod_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>6731</NewsId>
+</Game>
+<Game>
+<ID>9417</ID>
+<Round>1</Round>
+<GameYear>2019</GameYear>
+<GameDate>11/10/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ אואקה ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>3</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1803</Team1>
+<Team1Name>
+<![CDATA[ פנאתינייקוס ]]>
+</Team1Name>
+<Team1Score>89</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/PAOBC_OPAP_onLight.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>84</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>6737</NewsId>
+</Game>
+<Game>
+<ID>9462</ID>
+<Round>2</Round>
+<GameYear>2019</GameYear>
+<GameDate>13/10/2018</GameDate>
+<GameTime>19:25</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ אולם בגין ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>23798</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1347</Team1>
+<Team1Name>
+<![CDATA[ הפועל אילת ]]>
+</Team1Name>
+<Team1Score>70</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_eilat_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>83</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>6740</NewsId>
+</Game>
+<Game>
+<ID>9425</ID>
+<Round>2</Round>
+<GameYear>2019</GameYear>
+<GameDate>16/10/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>10</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10222
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>86</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1807</Team2>
+<Team2Name>
+<![CDATA[ צסקא מוסקבה ]]>
+</Team2Name>
+<Team2Score>89</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/1200px-PBC_CSKA_Moscow_logo_svg.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>6748</NewsId>
+</Game>
+<Game>
+<ID>9426</ID>
+<Round>3</Round>
+<GameYear>2019</GameYear>
+<GameDate>18/10/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ פודגוריצה ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>17</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1806</Team1>
+<Team1Name>
+<![CDATA[ בודצ'נוסט ]]>
+</Team1Name>
+<Team1Score>68</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/1200px-KK_Budu%C4%87nost_logo_300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>78</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>6752</NewsId>
+</Game>
+<Game>
+<ID>9483</ID>
+<Round>3</Round>
+<GameYear>2019</GameYear>
+<GameDate>22/10/2018</GameDate>
+<GameTime>20:15</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5STARS ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>23801</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10250
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>66</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1344</Team2>
+<Team2Name>
+<![CDATA[ הפועל ב"ש ]]>
+</Team2Name>
+<Team2Score>64</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/mtpic/logo_bs_300x300.png</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>6759</NewsId>
+</Game>
+<Game>
+<ID>9427</ID>
+<Round>4</Round>
+<GameYear>2019</GameYear>
+<GameDate>25/10/2018</GameDate>
+<GameTime>22:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>1</GameStatus>
+<GamePlace>
+<![CDATA[ פיראוס ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>26</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1802</Team1>
+<Team1Name>
+<![CDATA[ אולימפיאקוס ]]>
+</Team1Name>
+<Team1Score>88</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_oly_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>80</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9464</ID>
+<Round>4</Round>
+<GameYear>2019</GameYear>
+<GameDate>28/10/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1346</Team2>
+<Team2Name>
+<![CDATA[ הפועל תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_hapoel_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9430</ID>
+<Round>5</Round>
+<GameYear>2019</GameYear>
+<GameDate>01/11/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ פלאו בלאוגרנה ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1797</Team1>
+<Team1Name>
+<![CDATA[ ברצלונה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_barca_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9465</ID>
+<Round>5</Round>
+<GameYear>2019</GameYear>
+<GameDate>05/11/2018</GameDate>
+<GameTime>20:00</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5STARS ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1345</Team1>
+<Team1Name>
+<![CDATA[ הפועל גלבוע/גליל ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_galil_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9429</ID>
+<Round>6</Round>
+<GameYear>2019</GameYear>
+<GameDate>08/11/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10223
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1798</Team2>
+<Team2Name>
+<![CDATA[ ריאל מדריד ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/logo_real_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9466</ID>
+<Round>6</Round>
+<GameYear>2019</GameYear>
+<GameDate>10/11/2018</GameDate>
+<GameTime>20:30</GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1340</Team2>
+<Team2Name>
+<![CDATA[ הפועל חולון ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/logo_hulon__300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9431</ID>
+<Round>7</Round>
+<GameYear>2019</GameYear>
+<GameDate>16/11/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1811</Team1>
+<Team1Name>
+<![CDATA[ גראן קנריה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/CB_Gran_Canaria_2014_300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9467</ID>
+<Round>7</Round>
+<GameYear>2019</GameYear>
+<GameDate>18/11/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1338</Team1>
+<Team1Name>
+<![CDATA[ בני הרצליה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_bne_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9432</ID>
+<Round>8</Round>
+<GameYear>2019</GameYear>
+<GameDate>20/11/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1800</Team1>
+<Team1Name>
+<![CDATA[ אפס איסטנבול ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_efes_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9433</ID>
+<Round>9</Round>
+<GameYear>2019</GameYear>
+<GameDate>22/11/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10224
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1799</Team2>
+<Team2Name>
+<![CDATA[ פנרבחצ'ה איסטנבול ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_fenerbahce_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9468</ID>
+<Round>8</Round>
+<GameYear>2019</GameYear>
+<GameDate>25/11/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10243
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1342</Team2>
+<Team2Name>
+<![CDATA[ מכבי ראשון לציון ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/logos/logo_rishon(1).png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9434</ID>
+<Round>10</Round>
+<GameYear>2019</GameYear>
+<GameDate>29/11/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10225
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1808</Team2>
+<Team2Name>
+<![CDATA[ באיירן מינכן ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/munich.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9435</ID>
+<Round>11</Round>
+<GameYear>2019</GameYear>
+<GameDate>06/12/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1810</Team1>
+<Team1Name>
+<![CDATA[ דרושפאקה איסטנבול ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_darus_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9469</ID>
+<Round>9</Round>
+<GameYear>2019</GameYear>
+<GameDate>09/12/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1348</Team1>
+<Team1Name>
+<![CDATA[ עירוני נס ציונה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/logos/nes_tziona_70.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9436</ID>
+<Round>12</Round>
+<GameYear>2019</GameYear>
+<GameDate>13/12/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10226
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1801</Team2>
+<Team2Name>
+<![CDATA[ באסקוניה ויטוריה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Saski_Baskonia.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9470</ID>
+<Round>10</Round>
+<GameYear>2019</GameYear>
+<GameDate>16/12/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1339</Team2>
+<Team2Name>
+<![CDATA[ הפועל ירושלים ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_hapoelJeru_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9437</ID>
+<Round>13</Round>
+<GameYear>2019</GameYear>
+<GameDate>19/12/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10227
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1809</Team2>
+<Team2Name>
+<![CDATA[ חימקי מוסקבה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Khimki.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9438</ID>
+<Round>14</Round>
+<GameYear>2019</GameYear>
+<GameDate>21/12/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1805</Team1>
+<Team1Name>
+<![CDATA[ זלגיריס קובנה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/zalgiris_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9471</ID>
+<Round>11</Round>
+<GameYear>2019</GameYear>
+<GameDate>27/12/2018</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1343</Team1>
+<Team1Name>
+<![CDATA[ עירוני נהריה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_naharia_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9439</ID>
+<Round>15</Round>
+<GameYear>2019</GameYear>
+<GameDate>27/12/2018</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10228
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1804</Team2>
+<Team2Name>
+<![CDATA[ אולימפיה מילאנו ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_milano_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9472</ID>
+<Round>12</Round>
+<GameYear>2019</GameYear>
+<GameDate>03/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1341</Team1>
+<Team1Name>
+<![CDATA[ מכבי אשדוד ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_ashdod_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9440</ID>
+<Round>16</Round>
+<GameYear>2019</GameYear>
+<GameDate>03/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1798</Team1>
+<Team1Name>
+<![CDATA[ ריאל מדריד ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/logo_real_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9473</ID>
+<Round>13</Round>
+<GameYear>2019</GameYear>
+<GameDate>06/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10245
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1347</Team2>
+<Team2Name>
+<![CDATA[ הפועל אילת ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_eilat_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9441</ID>
+<Round>17</Round>
+<GameYear>2019</GameYear>
+<GameDate>09/01/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10229
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1806</Team2>
+<Team2Name>
+<![CDATA[ בודצ'נוסט ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/1200px-KK_Budu%C4%87nost_logo_300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9442</ID>
+<Round>18</Round>
+<GameYear>2019</GameYear>
+<GameDate>11/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1807</Team1>
+<Team1Name>
+<![CDATA[ צסקא מוסקבה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/1200px-PBC_CSKA_Moscow_logo_svg.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9474</ID>
+<Round>14</Round>
+<GameYear>2019</GameYear>
+<GameDate>13/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1344</Team1>
+<Team1Name>
+<![CDATA[ הפועל ב"ש ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/mtpic/logo_bs_300x300.png</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9443</ID>
+<Round>19</Round>
+<GameYear>2019</GameYear>
+<GameDate>17/01/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10230
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1797</Team2>
+<Team2Name>
+<![CDATA[ ברצלונה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_barca_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9475</ID>
+<Round>15</Round>
+<GameYear>2019</GameYear>
+<GameDate>20/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1346</Team1>
+<Team1Name>
+<![CDATA[ הפועל תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_hapoel_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9444</ID>
+<Round>20</Round>
+<GameYear>2019</GameYear>
+<GameDate>24/01/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10231
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1803</Team2>
+<Team2Name>
+<![CDATA[ פנאתינייקוס ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/PAOBC_OPAP_onLight.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9476</ID>
+<Round>16</Round>
+<GameYear>2019</GameYear>
+<GameDate>27/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10246
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1345</Team2>
+<Team2Name>
+<![CDATA[ הפועל גלבוע/גליל ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_galil_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9445</ID>
+<Round>21</Round>
+<GameYear>2019</GameYear>
+<GameDate>31/01/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1801</Team1>
+<Team1Name>
+<![CDATA[ באסקוניה ויטוריה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Saski_Baskonia.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9477</ID>
+<Round>17</Round>
+<GameYear>2019</GameYear>
+<GameDate>03/02/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1340</Team1>
+<Team1Name>
+<![CDATA[ הפועל חולון ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/logo_hulon__300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9446</ID>
+<Round>22</Round>
+<GameYear>2019</GameYear>
+<GameDate>07/02/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10232
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1802</Team2>
+<Team2Name>
+<![CDATA[ אולימפיאקוס ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_oly_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9478</ID>
+<Round>18</Round>
+<GameYear>2019</GameYear>
+<GameDate>17/02/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10247
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1338</Team2>
+<Team2Name>
+<![CDATA[ בני הרצליה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_bne_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9447</ID>
+<Round>23</Round>
+<GameYear>2019</GameYear>
+<GameDate>21/02/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1804</Team1>
+<Team1Name>
+<![CDATA[ אולימפיה מילאנו ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_milano_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9479</ID>
+<Round>19</Round>
+<GameYear>2019</GameYear>
+<GameDate>28/02/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1342</Team1>
+<Team1Name>
+<![CDATA[ מכבי ראשון לציון ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/logos/logo_rishon(1).png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9448</ID>
+<Round>24</Round>
+<GameYear>2019</GameYear>
+<GameDate>28/02/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10233
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1810</Team2>
+<Team2Name>
+<![CDATA[ דרושפאקה איסטנבול ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_darus_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9480</ID>
+<Round>20</Round>
+<GameYear>2019</GameYear>
+<GameDate>03/03/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10248
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1348</Team2>
+<Team2Name>
+<![CDATA[ עירוני נס ציונה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/logos/nes_tziona_70.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9449</ID>
+<Round>25</Round>
+<GameYear>2019</GameYear>
+<GameDate>07/03/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1808</Team1>
+<Team1Name>
+<![CDATA[ באיירן מינכן ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/munich.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9481</ID>
+<Round>21</Round>
+<GameYear>2019</GameYear>
+<GameDate>10/03/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1339</Team1>
+<Team1Name>
+<![CDATA[ הפועל ירושלים ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_hapoelJeru_300x300.png
+</Team1Logo>
+<Team2>1337</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9450</ID>
+<Round>26</Round>
+<GameYear>2019</GameYear>
+<GameDate>14/03/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10234
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1800</Team2>
+<Team2Name>
+<![CDATA[ אפס איסטנבול ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_efes_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9482</ID>
+<Round>22</Round>
+<GameYear>2019</GameYear>
+<GameDate>17/03/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>5</GameType>
+<GameTypeTxt>ליגת ווינר-סל</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10249
+</GameTicketsURL>
+<Team1>1337</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX ת"א ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1343</Team2>
+<Team2Name>
+<![CDATA[ עירוני נהריה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_naharia_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9451</ID>
+<Round>27</Round>
+<GameYear>2019</GameYear>
+<GameDate>20/03/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10235
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1805</Team2>
+<Team2Name>
+<![CDATA[ זלגיריס קובנה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/zalgiris_300x300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9452</ID>
+<Round>28</Round>
+<GameYear>2019</GameYear>
+<GameDate>22/03/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1809</Team1>
+<Team1Name>
+<![CDATA[ חימקי מוסקבה ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/Khimki.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9453</ID>
+<Round>29</Round>
+<GameYear>2019</GameYear>
+<GameDate>28/03/2019</GameDate>
+<GameTime>21:00</GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ היכל מנורה מבטחים ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ 5SPORT ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>True</IsBuyTicketsActive>
+<GameTicketsURL>
+https://maccabitickets.co.il/loader.aspx/?target=hall.aspx?event=10236
+</GameTicketsURL>
+<Team1>1796</Team1>
+<Team1Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team1Logo>
+<Team2>1811</Team2>
+<Team2Name>
+<![CDATA[ גראן קנריה ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>
+http://www.maccabi.co.il/mtpic/2018-19/Logos/CB_Gran_Canaria_2014_300.png
+</Team2Logo>
+<HomeAway>H</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+<Game>
+<ID>9454</ID>
+<Round>30</Round>
+<GameYear>2019</GameYear>
+<GameDate>05/04/2019</GameDate>
+<GameTime> </GameTime>
+<GameType>1</GameType>
+<GameTypeTxt>יורוליג</GameTypeTxt>
+<GameStatus>2</GameStatus>
+<GamePlace>
+<![CDATA[ ]]>
+</GamePlace>
+<GameBroadCast>
+<![CDATA[ ]]>
+</GameBroadCast>
+<GamePBP> </GamePBP>
+<ExternalID>0</ExternalID>
+<IsBuyTicketsActive>False</IsBuyTicketsActive>
+<GameTicketsURL> </GameTicketsURL>
+<Team1>1799</Team1>
+<Team1Name>
+<![CDATA[ פנרבחצ'ה איסטנבול ]]>
+</Team1Name>
+<Team1Score>0</Team1Score>
+<Team1Logo>
+http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_fenerbahce_300x300.png
+</Team1Logo>
+<Team2>1796</Team2>
+<Team2Name>
+<![CDATA[ מכבי FOX תל אביב ]]>
+</Team2Name>
+<Team2Score>0</Team2Score>
+<Team2Logo>http://www.maccabi.co.il/Images/logo_maccabi.png</Team2Logo>
+<HomeAway>A</HomeAway>
+<NewsId>0</NewsId>
+</Game>
+</Games>

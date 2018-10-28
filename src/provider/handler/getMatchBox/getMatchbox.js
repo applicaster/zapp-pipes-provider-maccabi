@@ -3,6 +3,7 @@ import { parseDate, parseXML, sliceWrap, compareTimes } from '../utils';
 import { mapMatchBox } from './matchBoxMapper';
 import { getEuroleagueLivaData } from './euroleagueLivaData';
 import { getSegevLiveData } from './segevLiveData';
+import { flatten } from 'lodash';
 
 export default ({
   c_type = '0',
@@ -57,24 +58,28 @@ async function responseMapper(url, c_types, ex_game_id, game_list) {
     async c_type =>
       await axios.get(`${url}?game_list=${game_list}&c_type=${c_type}`)
   );
-  return Promise.all(promises).then(res => {
-    let entries = [];
-    res.forEach(item => {
-      const rawData = parseXML(item.data);
-      const parsedData = rawData.Games.Game
-        ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', '))
-        : [];
-      parsedData.forEach(async item => {
-        if (item.extensions.status === '3') {
-          const liveItem = await getLiveData(item, ex_game_id);
-          entries.push(liveItem);
-        } else entries.push(item);
-      });
-    });
-    return entries.sort((a, b) =>
-      compareTimes(a.extensions.match_date, b.extensions.match_date)
-    );
-  });
+
+  const response = await Promise.all(promises);
+
+  const b = flatten(
+    await Promise.all(
+      response.map(async item => {
+        const rawData = parseXML(item.data);
+        const parsedData = rawData.Games.Game
+          ? parseData(rawData.Games.Game, ex_game_id, c_types.join(', '))
+          : [];
+        const a = parsedData.map(async item => {
+          if (item.extensions.status === '3') {
+            const liveItem = await getLiveData(item, ex_game_id);
+            return liveItem;
+          } else return item;
+        });
+        return await Promise.all(a);
+      })
+    )
+  );
+
+  return b;
 }
 
 async function getLiveData(game, ex_game_id) {
@@ -88,7 +93,6 @@ async function getLiveData(game, ex_game_id) {
     default:
       return game;
   }
-  return game;
 }
 
 function parseCType(c_type) {

@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import axios from 'axios';
 import { parseXML } from '../utils';
 
 const USER = 'maccabi';
@@ -19,7 +19,7 @@ export async function getEuroleagueLivaData(game, ex_game_id) {
         item.team2._cdata.toLowerCase().includes('maccabi')
     );
 
-    return {
+    return Promise.resolve({
       ...game,
       extensions: {
         ...game.extensions,
@@ -32,8 +32,8 @@ export async function getEuroleagueLivaData(game, ex_game_id) {
         home_team_score: game.homepts._text,
         away_team_score: game.awaypts._text
       }
-    };
+    });
   } catch (e) {
-    return game;
+    return Promise.resolve(game);
   }
 }

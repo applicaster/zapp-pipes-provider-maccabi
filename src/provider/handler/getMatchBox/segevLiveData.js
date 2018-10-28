@@ -9,7 +9,7 @@ export async function getSegevLiveData(game, ex_game_id) {
     );
 
     const gameInfo = response.data.result.boxscore.gameInfo;
-    return {
+    const res = {
       ...game,
       extensions: {
         ...game.extensions,
@@ -19,8 +19,10 @@ export async function getSegevLiveData(game, ex_game_id) {
         away_team_score: gameInfo.awayScore
       }
     };
+
+    return Promise.resolve(res);
   } catch (e) {
     console.log('error', e);
-    return game;
+    return Promise.resolve(game);
   }
 }

@@ -1,0 +1,232 @@
+{
+    "id": "0",
+    "title": "כל המשחקים",
+    "type": {
+        "value": "match_box"
+    },
+    "entry": [{
+            "type": {
+                "value": ""
+            },
+            "id": "9483",
+            "title": "ליגת ווינר-סל",
+            "summary": "",
+            "author": {
+                "name": "maccabi"
+            },
+            "link": {
+                "href": "maccabi://present?linkUrl=http%3A%2F%2Fmaccabi.co.il%2FgameZoneApp.asp%3FgameID%3D9483&showContext=true",
+                "type": "link"
+            },
+            "media_group": [{
+                "type": "team1_logo",
+                "media_item": [{
+                        "src": "http://www.maccabi.co.il/Images/logo_maccabi.png",
+                        "key": "image_base",
+                        "type": "image"
+                    },
+                    {
+                        "src": "http://www.maccabi.co.il/mtpic/logo_bs_300x300.png",
+                        "key": "image_base",
+                        "type": "image"
+                    }
+                ]
+            }],
+            "extensions": {
+                "status": "1",
+                "match_date": "2018/10/22 20:15:00 +03:00",
+                "home_team_name": "מכבי FOX ת\"א",
+                "home_team_score": "66",
+                "away_team_name": "הפועל ב\"ש",
+                "away_team_score": "64",
+                "match_stadium": "היכל מנורה מבטחים",
+                "match_round": "3",
+                "match_winner": "H",
+                "tickets_url": "maccabi://present?linkUrl=https%3A%2F%2Fmaccabitickets.co.il%2Floader.aspx%2F%3Ftarget%3Dhall.aspx%3Fevent%3D10250&showContext=true",
+                "currentQuarter": "",
+                "currentQuarterTimeMinutes": "",
+                "ex_game_id": "",
+                "league_type": "0"
+            }
+        },
+        {
+            "type": {
+                "value": ""
+            },
+            "id": "9427",
+            "title": "יורוליג",
+            "summary": "",
+            "author": {
+                "name": "maccabi"
+            },
+            "link": {
+                "href": "maccabi://present?linkUrl=http%3A%2F%2Fmaccabi.co.il%2FgameZoneApp.asp%3FgameID%3D9427&showContext=true",
+                "type": "link"
+            },
+            "media_group": [{
+                "type": "team1_logo",
+                "media_item": [{
+                        "src": "http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_oly_300x300.png",
+                        "key": "image_base",
+                        "type": "image"
+                    },
+                    {
+                        "src": "http://www.maccabi.co.il/Images/logo_maccabi.png",
+                        "key": "image_base",
+                        "type": "image"
+                    }
+                ]
+            }],
+            "extensions": {
+                "status": "1",
+                "match_date": "2018/10/25 22:00:00 +03:00",
+                "home_team_name": "אולימפיאקוס",
+                "home_team_score": "88",
+                "away_team_name": "מכבי FOX תל אביב",
+                "away_team_score": "80",
+                "match_stadium": "פיראוס",
+                "match_round": "4",
+                "match_winner": "A",
+                "tickets_url": "",
+                "currentQuarter": "",
+                "currentQuarterTimeMinutes": "",
+                "ex_game_id": "",
+                "league_type": "0"
+            }
+        },
+        {
+            "type": {
+                "value": ""
+            },
+            "id": "9464",
+            "title": "ליגת ווינר-סל",
+            "summary": "",
+            "author": {
+                "name": "maccabi"
+            },
+            "link": {
+                "href": "maccabi://present?linkUrl=http%3A%2F%2Fmaccabi.co.il%2FgameZoneApp.asp%3FgameID%3D9464&showContext=true",
+                "type": "link"
+            },
+            "media_group": [{
+                "type": "team1_logo",
+                "media_item": [{
+                        "src": "http://www.maccabi.co.il/Images/logo_maccabi.png",
+                        "key": "image_base",
+                        "type": "image"
+                    },
+                    {
+                        "src": "http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_hapoel_300x300.png",
+                        "key": "image_base",
+                        "type": "image"
+                    }
+                ]
+            }],
+            "extensions": {
+                "status": "3",
+                "match_date": "2018/10/28 21:00:00 +02:00",
+                "home_team_name": "מכבי FOX ת\"א",
+                "home_team_score": "46",
+                "away_team_name": "הפועל תל אביב",
+                "away_team_score": "29",
+                "match_stadium": "היכל מנורה מבטחים",
+                "match_round": "4",
+                "match_winner": "H",
+                "tickets_url": "",
+                "currentQuarter": 2,
+                "currentQuarterTimeMinutes": 0,
+                "ex_game_id": "962236",
+                "league_type": "0"
+            }
+        },
+        {
+            "type": {
+                "value": ""
+            },
+            "id": "9430",
+            "title": "יורוליג",
+            "summary": "",
+            "author": {
+                "name": "maccabi"
+            },
+            "link": {
+                "href": "maccabi://present?linkUrl=http%3A%2F%2Fmaccabi.co.il%2FgameZoneApp.asp%3FgameID%3D9430&showContext=true",
+                "type": "link"
+            },
+            "media_group": [{
+                "type": "team1_logo",
+                "media_item": [{
+                        "src": "http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_barca_300x300.png",
+                        "key": "image_base",
+                        "type": "image"
+                    },
+                    {
+                        "src": "http://www.maccabi.co.il/Images/logo_maccabi.png",
+                        "key": "image_base",
+                        "type": "image"
+                    }
+                ]
+            }],
+            "extensions": {
+                "status": "2",
+                "match_date": "2018/11/01 21:00:00 +02:00",
+                "home_team_name": "ברצלונה",
+                "home_team_score": "0",
+                "away_team_name": "מכבי FOX תל אביב",
+                "away_team_score": "0",
+                "match_stadium": "פלאו בלאוגרנה",
+                "match_round": "5",
+                "match_winner": "A",
+                "tickets_url": "",
+                "currentQuarter": "",
+                "currentQuarterTimeMinutes": "",
+                "ex_game_id": "",
+                "league_type": "0"
+            }
+        },
+        {
+            "type": {
+                "value": ""
+            },
+            "id": "9465",
+            "title": "ליגת ווינר-סל",
+            "summary": "",
+            "author": {
+                "name": "maccabi"
+            },
+            "link": {
+                "href": "maccabi://present?linkUrl=http%3A%2F%2Fmaccabi.co.il%2FgameZoneApp.asp%3FgameID%3D9465&showContext=true",
+                "type": "link"
+            },
+            "media_group": [{
+                "type": "team1_logo",
+                "media_item": [{
+                        "src": "http://www.maccabi.co.il/mtpic/2016-17/Logos/logo_galil_300x300.png",
+                        "key": "image_base",
+                        "type": "image"
+                    },
+                    {
+                        "src": "http://www.maccabi.co.il/Images/logo_maccabi.png",
+                        "key": "image_base",
+                        "type": "image"
+                    }
+                ]
+            }],
+            "extensions": {
+                "status": "2",
+                "match_date": "2018/11/05 20:00:00 +02:00",
+                "home_team_name": "הפועל גלבוע/גליל",
+                "home_team_score": "0",
+                "away_team_name": "מכבי FOX ת\"א",
+                "away_team_score": "0",
+                "match_round": "5",
+                "match_winner": "A",
+                "tickets_url": "",
+                "currentQuarter": "",
+                "currentQuarterTimeMinutes": "",
+                "ex_game_id": "",
+                "league_type": "0"
+            }
+        }
+    ]
+}

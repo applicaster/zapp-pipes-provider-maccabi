@@ -62,6 +62,7 @@ export function mapMatchBox(Game, ex_game_id, league_type) {
           : '',
       currentQuarter: '',
       currentQuarterTimeMinutes: '',
+      gamePBP: Game.GamePBP,
       ex_game_id: !isEmpty(Game.GamePBP)
         ? Game.GamePBP._text.split('/')[
             Game.GamePBP._text.split('/').length - 2

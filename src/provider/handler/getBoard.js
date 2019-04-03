@@ -7,7 +7,7 @@ import {
 export default ({
     c_type = '0'
 }) => {
-    const url = `http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetTable?c_type=${c_type}`;
+    const url = `https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetTable?c_type=${c_type}`;
     return axios.get(url).then(handlePlayersResponse).catch(e => Promise.reject());
 
 };

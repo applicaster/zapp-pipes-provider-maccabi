@@ -5,7 +5,7 @@ import {
 } from './utils';
 
 export default () => {
-  const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetPlayers';
+  const url = 'https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetPlayers';
   return axios.get(url).then(handlePlayersResponse).catch(e => Promise.reject());
 
 };
@@ -35,7 +35,7 @@ function parsePlayer(player) {
       name: player.Name._cdata
     },
     link: {
-      href: urlEncode(`http://maccabi.co.il/playerApp.asp?PlayerID=${player.ID._text}`),
+      href: urlEncode(`https://maccabi.co.il/playerApp.asp?PlayerID=${player.ID._text}`),
       type: 'link'
     },
     media_group: [{

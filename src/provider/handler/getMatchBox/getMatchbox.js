@@ -12,7 +12,7 @@ export default ({
   ex_game_id
 }) => {
   const url =
-    'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
+    'https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetGames';
   const c_types = parseCType(c_type);
   return responseMapper(url, c_types, ex_game_id, game_list)
     .then(async res => {
@@ -107,7 +107,7 @@ function getEventTypeById(c_types) {
   if (c_types.includes('0')) return 'כל המשחקים';
   return axios
     .get(
-      'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
+      'https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetEventsTypes'
     )
     .then(response => {
       const rawData = parseXML(response.data);

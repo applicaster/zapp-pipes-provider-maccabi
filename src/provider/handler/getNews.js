@@ -12,7 +12,7 @@ export default ({
   to,
   newsType = "0"
 }) => {
-  const url = 'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNews'
+  const url = 'https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNews'
   return axios.get(`${url}?item_id=0&c_type=${newsType}`).then(res => {
     return handleNewsResponse(res, newsType, from, to);
   }).catch(e => Promise.reject('error connecting to maccabi api'));
@@ -53,7 +53,7 @@ function parseItem(item) {
     },
     link: {
       href: urlEncode(item.Link ?
-        item.Link._text : `http://maccabi.co.il/newsApp.asp?id=${item.ID._text}`),
+        item.Link._text : `https://maccabi.co.il/newsApp.asp?id=${item.ID._text}`),
       type: 'link'
     },
     media_group: [{
@@ -72,7 +72,7 @@ function getNewsTitleById(id) {
   try {
     return axios
       .get(
-        'http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNewsTypes'
+        'https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx/GetNewsTypes'
       )
       .then(res => {
         const rawData = parseXML(res.data);

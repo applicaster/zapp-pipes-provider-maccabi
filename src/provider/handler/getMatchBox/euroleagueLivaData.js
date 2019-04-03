@@ -6,12 +6,12 @@ const PASSWORD = 'C547D7E5817A28D55DAA5AF1477DC1FA8ABC0CE3';
 export async function getEuroleagueLivaData(game, ex_game_id) {
   try {
     let games_response = await axios.get(
-      `http://live.euroleague.net/service.ashx?method=gamesxml&user=${USER}&password=${PASSWORD}`
+      `https://live.euroleague.net/service.ashx?method=gamesxml&user=${USER}&password=${PASSWORD}`
     );
 
     if (!parseXML(games_response.data).games)
       games_response = await axios.get(
-        `http://live.euroleague.net/service.ashx?method=gamesxml&user=${USER}&password=${PASSWORD}`
+        `https://live.euroleague.net/service.ashx?method=gamesxml&user=${USER}&password=${PASSWORD}`
       );
     const parsedGame = parseXML(games_response.data).games.game.find(
       item =>

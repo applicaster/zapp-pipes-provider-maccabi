@@ -3,14 +3,14 @@
   "platform": null,
   "author_name": "Maxi",
   "author_email": "m.wainberg@applicaster.com",
-  "manifest_version": "0.2.0",
+  "manifest_version": "1.0.0",
   "name": "maccabi",
   "description": "data source plugin for Maccabi tlv (bascketball)",
   "type": "data_source_provider",
   "identifier": "maccabids",
   "ui_builder_support": true,
   "dependency_name": "@applicaster/zapp-pipes-provider-maccabi",
-  "dependency_version": "0.2.0",
+  "dependency_version": "1.0.0",
   "dependency_repository_url": [
     "https://github.com/applicaster/zapp-pipes-provider-maccabi"
   ],
@@ -23,7 +23,7 @@
       "label": "news",
       "value": "news",
       "documentation": {
-        "link": "http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetNews",
+        "link": "https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetNews",
         "input_description": "get news item list",
         "input_placeholder": "?newType=0&to=4&to=7",
         "input_description_image_url": "..."
@@ -33,7 +33,7 @@
       "label": "players",
       "value": "players",
       "documentation": {
-        "link": "http://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetPlayers",
+        "link": "https://www.maccabi.co.il/MaccabiServices/MaccabiServices.asmx?op=GetPlayers",
         "input_description": "get players item list",
         "input_placeholder": "",
         "input_description_image_url": "..."

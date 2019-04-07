@@ -1,6 +1,6 @@
 {
   "name": "@applicaster/zapp-pipes-provider-maccabi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provider project for maccabi-zapp-pipes",
   "main": "lib/index.js",
   "scripts": {
